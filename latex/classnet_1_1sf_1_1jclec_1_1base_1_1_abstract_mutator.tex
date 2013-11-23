@@ -1,0 +1,143 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator}{\section{net.\-sf.\-jclec.\-base.\-Abstract\-Mutator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator}\index{net.\-sf.\-jclec.\-base.\-Abstract\-Mutator@{net.\-sf.\-jclec.\-base.\-Abstract\-Mutator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-base.\-Abstract\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.276873cm]{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a6ce8dd6a6cdcc19c003e7f40f0af9e54}{Abstract\-Mutator} ()
+\item 
+final void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a09e2996e9f6715d658b07d41971801c8}{contextualize} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_af0995dc3ca644cea60e43aa65085f097}{context})
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a6dc5e2ae8e27cdda9639cad2cadd6fba}{mutate} (List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ parents)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad12e6a2be8fb6082255ce8f399c9b166}{prepare\-Mutation} ()
+\item 
+abstract void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_acad18bae2458fe06812b321d43f3499e}{mutate\-Next} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_population}{I\-Population} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_af0995dc3ca644cea60e43aa65085f097}{context}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen}{I\-Rand\-Gen} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a21907b5345c3af80722235d42aec079a}{randgen}
+\item 
+transient List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a246b0bbd581762861efb3e2da0e68d3f}{parents\-Buffer}
+\item 
+transient List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ab44190f45865606f8d385b50a7863c35}{sons\-Buffer}
+\item 
+transient int \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad1bc7a6bb4e3be8e6aae039c7bb5d8d8}{parents\-Counter}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_mutator}{I\-Mutator} abstract implementation.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a6ce8dd6a6cdcc19c003e7f40f0af9e54}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!Abstract\-Mutator@{Abstract\-Mutator}}
+\index{Abstract\-Mutator@{Abstract\-Mutator}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{Abstract\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-Abstract\-Mutator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a6ce8dd6a6cdcc19c003e7f40f0af9e54}
+Empty constructor. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a09e2996e9f6715d658b07d41971801c8}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!contextualize@{contextualize}}
+\index{contextualize@{contextualize}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{contextualize}]{\setlength{\rightskip}{0pt plus 5cm}final void net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-contextualize (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{context}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a09e2996e9f6715d658b07d41971801c8}
+Set the system where ...
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Execution context\\
+\hline
+\end{DoxyParams}
+ 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_tool_aa11b3e046b7f38e40eb4f8c72a9a2102}{net.\-sf.\-jclec.\-I\-Tool}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a6dc5e2ae8e27cdda9639cad2cadd6fba}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!mutate@{mutate}}
+\index{mutate@{mutate}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{mutate}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-mutate (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf I\-Individual} $>$}]{parents}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a6dc5e2ae8e27cdda9639cad2cadd6fba}
+Mutation method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parents} & Individuals to mutate\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Mutation result
+\end{DoxyReturn}
+ 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_mutator_a5300cd0df63950ea9f660b24425211fb}{net.\-sf.\-jclec.\-I\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_acad18bae2458fe06812b321d43f3499e}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!mutate\-Next@{mutate\-Next}}
+\index{mutate\-Next@{mutate\-Next}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{mutate\-Next}]{\setlength{\rightskip}{0pt plus 5cm}abstract void net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-mutate\-Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_acad18bae2458fe06812b321d43f3499e}
+Atomic mutation method. This method... 
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_several_loci_mutator_a8e834b186164c7ad895464699a10941e}{net.\-sf.\-jclec.\-intarray.\-mut.\-Several\-Loci\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_several_loci_mutator_a9d195623cf89f738b53940a082059a24}{net.\-sf.\-jclec.\-binarray.\-mut.\-Several\-Loci\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a639c8a190fed6f77db9844dfce7a4f6c}{net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_mutator_a4a3637da6427be21eb5804a45f0a2ce7}{net.\-sf.\-jclec.\-multiexprtree.\-Multi\-Expr\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_uniform_mutator_ac35f3eec57a49484815855ed1db9a2da}{net.\-sf.\-jclec.\-intarray.\-mut.\-Uniform\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_mutator_a74e5f24fa1234791cb3e242c5426f9e8}{net.\-sf.\-jclec.\-syntaxtree.\-Syntax\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_uniform_mutator_ad631a7f477c8af9a61b8fdb64d61e9bd}{net.\-sf.\-jclec.\-binarray.\-mut.\-Uniform\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_mutator_a51f55d91527bfbd7656f6cd11c4ebb3d}{net.\-sf.\-jclec.\-exprtree.\-Expr\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7c90fd0f74afd20e102f9cbf87014e9b}{net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_one_locus_mutator_afcbf5c30ec1b952e34b188659d7bd470}{net.\-sf.\-jclec.\-binarray.\-mut.\-One\-Locus\-Mutator}, and \hyperlink{classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_one_locus_mutator_ad4a1be2de8902dc1153d7f0ed57132f7}{net.\-sf.\-jclec.\-intarray.\-mut.\-One\-Locus\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad12e6a2be8fb6082255ce8f399c9b166}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!prepare\-Mutation@{prepare\-Mutation}}
+\index{prepare\-Mutation@{prepare\-Mutation}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{prepare\-Mutation}]{\setlength{\rightskip}{0pt plus 5cm}abstract void net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-prepare\-Mutation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad12e6a2be8fb6082255ce8f399c9b166}
+Prepare mutation process. 
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_non_uniform_mutator_af0c404dbbc03b506c7517729bd479181}{net.\-sf.\-jclec.\-realarray.\-mut.\-Non\-Uniform\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abc579c6ab91161c80f75e2f643b864ac}{net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_mutator_a0793d815841d004beaaa9acb66659e87}{net.\-sf.\-jclec.\-multiexprtree.\-Multi\-Expr\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_mutator_a89e6a223695258e4f7e42edb54a4e077}{net.\-sf.\-jclec.\-syntaxtree.\-Syntax\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_mutator_a2bafce5d54003041106517857e0ce65b}{net.\-sf.\-jclec.\-exprtree.\-Expr\-Tree\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_modal_continuous_mutator_a7e418455e1ce51a13043d748d032a17d}{net.\-sf.\-jclec.\-realarray.\-mut.\-Modal\-Continuous\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_mutator_a6fbfa9c56e7c6e3af8532636dd0ceb60}{net.\-sf.\-jclec.\-realarray.\-Real\-Array\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_mutator_a088c3c1163c64a669a623c949843cd15}{net.\-sf.\-jclec.\-intarray.\-Int\-Array\-Mutator}, and \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_mutator_a104587c4458bc8c299cdf902e0ee0cc9}{net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Mutator}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_af0995dc3ca644cea60e43aa65085f097}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!context@{context}}
+\index{context@{context}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{context}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Population} net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-context\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_af0995dc3ca644cea60e43aa65085f097}
+Execution context \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a246b0bbd581762861efb3e2da0e68d3f}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!parents\-Buffer@{parents\-Buffer}}
+\index{parents\-Buffer@{parents\-Buffer}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{parents\-Buffer}]{\setlength{\rightskip}{0pt plus 5cm}transient List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-parents\-Buffer\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a246b0bbd581762861efb3e2da0e68d3f}
+Parents buffer. Used by the atomic mutation method \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad1bc7a6bb4e3be8e6aae039c7bb5d8d8}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!parents\-Counter@{parents\-Counter}}
+\index{parents\-Counter@{parents\-Counter}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{parents\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}transient int net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-parents\-Counter\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad1bc7a6bb4e3be8e6aae039c7bb5d8d8}
+Parent counter \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a21907b5345c3af80722235d42aec079a}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!randgen@{randgen}}
+\index{randgen@{randgen}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{randgen}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Rand\-Gen} net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-randgen\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_a21907b5345c3af80722235d42aec079a}
+Random generator used in mutation \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ab44190f45865606f8d385b50a7863c35}{\index{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}!sons\-Buffer@{sons\-Buffer}}
+\index{sons\-Buffer@{sons\-Buffer}!net::sf::jclec::base::AbstractMutator@{net\-::sf\-::jclec\-::base\-::\-Abstract\-Mutator}}
+\subsubsection[{sons\-Buffer}]{\setlength{\rightskip}{0pt plus 5cm}transient List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Abstract\-Mutator.\-sons\-Buffer\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ab44190f45865606f8d385b50a7863c35}
+Sons buffer. Used by the atomic mutation method 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/base/Abstract\-Mutator.\-java\end{DoxyCompactItemize}

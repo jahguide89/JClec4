@@ -1,0 +1,120 @@
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{\section{net.\-sf.\-jclec.\-I\-Individual Interface Reference}
+\label{interfacenet_1_1sf_1_1jclec_1_1_i_individual}\index{net.\-sf.\-jclec.\-I\-Individual@{net.\-sf.\-jclec.\-I\-Individual}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-I\-Individual\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{interfacenet_1_1sf_1_1jclec_1_1_i_individual}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_fitness}{I\-Fitness} \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual_af2c6e6204a66c02848e2cfe3780a7948}{get\-Fitness} ()
+\item 
+void \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual_ad3e70e2475909eff7fcc29659cb65c0b}{set\-Fitness} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_fitness}{I\-Fitness} fitness)
+\item 
+abstract double \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual_af9377b8bdb99b3b7a620409e2231a840}{distance} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} other)
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual_aa130350eac6b2e8f8d362d359f45437a}{copy} ()
+\item 
+boolean \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual_adfbc76df9a2b0d8461e9146d4c7ec3d5}{equals} (Object other)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+General purpose individual.
+
+This interface defines common operations for a general-\/purpose individual. Methods implementation depends on the individual's encoding -\/that is, what is the type of genotype it presents, the presence of phenotype, ... 
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_individual_aa130350eac6b2e8f8d362d359f45437a}{\index{net\-::sf\-::jclec\-::\-I\-Individual@{net\-::sf\-::jclec\-::\-I\-Individual}!copy@{copy}}
+\index{copy@{copy}!net::sf::jclec::IIndividual@{net\-::sf\-::jclec\-::\-I\-Individual}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Individual} net.\-sf.\-jclec.\-I\-Individual.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_individual_aa130350eac6b2e8f8d362d359f45437a}
+Copy method.
+
+\begin{DoxyReturn}{Returns}
+a copy of this individual. 
+\end{DoxyReturn}
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_individual_af9377b8bdb99b3b7a620409e2231a840}{\index{net\-::sf\-::jclec\-::\-I\-Individual@{net\-::sf\-::jclec\-::\-I\-Individual}!distance@{distance}}
+\index{distance@{distance}!net::sf::jclec::IIndividual@{net\-::sf\-::jclec\-::\-I\-Individual}}
+\subsubsection[{distance}]{\setlength{\rightskip}{0pt plus 5cm}abstract double net.\-sf.\-jclec.\-I\-Individual.\-distance (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Individual}}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_individual_af9377b8bdb99b3b7a620409e2231a840}
+Distance method.
+
+\begin{DoxyReturn}{Returns}
+Distance between this individual and {\ttfamily other}
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000001}{Deprecated}]Use the interface \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_distance}{I\-Distance} \end{DoxyRefDesc}
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_distance}{net.\-sf.\-jclec.\-I\-Distance} 
+\end{DoxySeeAlso}
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_individual_adfbc76df9a2b0d8461e9146d4c7ec3d5}{\index{net\-::sf\-::jclec\-::\-I\-Individual@{net\-::sf\-::jclec\-::\-I\-Individual}!equals@{equals}}
+\index{equals@{equals}!net::sf::jclec::IIndividual@{net\-::sf\-::jclec\-::\-I\-Individual}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-I\-Individual.\-equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{other}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_individual_adfbc76df9a2b0d8461e9146d4c7ec3d5}
+Equals method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & object to compare \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the individual is equal to the other, false otherwise 
+\end{DoxyReturn}
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_individual_af2c6e6204a66c02848e2cfe3780a7948}{\index{net\-::sf\-::jclec\-::\-I\-Individual@{net\-::sf\-::jclec\-::\-I\-Individual}!get\-Fitness@{get\-Fitness}}
+\index{get\-Fitness@{get\-Fitness}!net::sf::jclec::IIndividual@{net\-::sf\-::jclec\-::\-I\-Individual}}
+\subsubsection[{get\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Fitness} net.\-sf.\-jclec.\-I\-Individual.\-get\-Fitness (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_individual_af2c6e6204a66c02848e2cfe3780a7948}
+Access to individual fitness.
+
+\begin{DoxyReturn}{Returns}
+Individual fitness 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_individual_3_01_g_01_4_a0c7384db3b17214bff18ffcbbb21fda0}{net.\-sf.\-jclec.\-base.\-Abstract\-Individual$<$ G $>$}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_individual_ad3e70e2475909eff7fcc29659cb65c0b}{\index{net\-::sf\-::jclec\-::\-I\-Individual@{net\-::sf\-::jclec\-::\-I\-Individual}!set\-Fitness@{set\-Fitness}}
+\index{set\-Fitness@{set\-Fitness}!net::sf::jclec::IIndividual@{net\-::sf\-::jclec\-::\-I\-Individual}}
+\subsubsection[{set\-Fitness}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-I\-Individual.\-set\-Fitness (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Fitness}}]{fitness}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_individual_ad3e70e2475909eff7fcc29659cb65c0b}
+Sets the fitness of this individual.
+
+
+\begin{DoxyParams}{Parameters}
+{\em fitness} & New fitness value. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_individual_3_01_g_01_4_a99712eb48238ca6e13411cf2e68dc26b}{net.\-sf.\-jclec.\-base.\-Abstract\-Individual$<$ G $>$}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/I\-Individual.\-java\end{DoxyCompactItemize}

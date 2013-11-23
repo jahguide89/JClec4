@@ -1,0 +1,127 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector}{\section{net.\-sf.\-jclec.\-selector.\-Worses\-Selector Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector}\index{net.\-sf.\-jclec.\-selector.\-Worses\-Selector@{net.\-sf.\-jclec.\-selector.\-Worses\-Selector}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-selector.\-Worses\-Selector\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ae90e9ed1bb98dff24369f715a4d3bc27}{Worses\-Selector} ()
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_aad247bbd157f2adc786a44f7ac7d85df}{Worses\-Selector} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_selector_a4304fe5c27aa7631dc91678d22473b94}{context})
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a826fea71513580a0fcbf2b9fca7782f6}{prepare\-Selection} ()
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} \hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a11a1329db7f422cc0a3e3292a6ed46a1}{select\-Next} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+transient Comparator$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a0a02abaad7e94b3c69d0d357616563cc}{individuals\-Comparator}
+\item 
+transient Comparator$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_fitness}{I\-Fitness} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ad616da9c10e71aa53acc28300fc0c18e}{fitness\-Comparator}
+\item 
+transient Array\-List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ac94a7bc035ca4471e05c24acdad462e5}{aux\-List} = new Array\-List$<$\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual}$>$ ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Better individuals selector.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ae90e9ed1bb98dff24369f715a4d3bc27}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!Worses\-Selector@{Worses\-Selector}}
+\index{Worses\-Selector@{Worses\-Selector}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{Worses\-Selector}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-Worses\-Selector (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ae90e9ed1bb98dff24369f715a4d3bc27}
+Empty constructor. \hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_aad247bbd157f2adc786a44f7ac7d85df}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!Worses\-Selector@{Worses\-Selector}}
+\index{Worses\-Selector@{Worses\-Selector}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{Worses\-Selector}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-Worses\-Selector (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{context}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_aad247bbd157f2adc786a44f7ac7d85df}
+Constructor that contextualize this selector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Execution context \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a826fea71513580a0fcbf2b9fca7782f6}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!prepare\-Selection@{prepare\-Selection}}
+\index{prepare\-Selection@{prepare\-Selection}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{prepare\-Selection}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-prepare\-Selection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a826fea71513580a0fcbf2b9fca7782f6}
+Prepare selection consists on take fitnesses comparator (to compare individuals by fitness). Then, copy all source inds in a temporary list
+
+Prepare the selection process. 
+
+Implements \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_selector_a0c5d9cb96fef9786e272b9edd811111e}{net.\-sf.\-jclec.\-base.\-Abstract\-Selector}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a11a1329db7f422cc0a3e3292a6ed46a1}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!select\-Next@{select\-Next}}
+\index{select\-Next@{select\-Next}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{select\-Next}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Individual} net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-select\-Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a11a1329db7f422cc0a3e3292a6ed46a1}
+This method take worst individual in temporary list, then remove and return it.
+
+Selects an individual (in the context of a selection process).
+
+\begin{DoxyReturn}{Returns}
+Selected individual
+\end{DoxyReturn}
+ 
+
+Implements \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_selector_aa2ccb539c608db9c14ebbc763807b95a}{net.\-sf.\-jclec.\-base.\-Abstract\-Selector}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ac94a7bc035ca4471e05c24acdad462e5}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!aux\-List@{aux\-List}}
+\index{aux\-List@{aux\-List}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{aux\-List}]{\setlength{\rightskip}{0pt plus 5cm}transient Array\-List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-aux\-List = new Array\-List$<${\bf I\-Individual}$>$ ()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ac94a7bc035ca4471e05c24acdad462e5}
+Auxiliary list \hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ad616da9c10e71aa53acc28300fc0c18e}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!fitness\-Comparator@{fitness\-Comparator}}
+\index{fitness\-Comparator@{fitness\-Comparator}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{fitness\-Comparator}]{\setlength{\rightskip}{0pt plus 5cm}transient Comparator$<${\bf I\-Fitness}$>$ net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-fitness\-Comparator\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_ad616da9c10e71aa53acc28300fc0c18e}
+Fitness comparator (taken from context) \hypertarget{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a0a02abaad7e94b3c69d0d357616563cc}{\index{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}!individuals\-Comparator@{individuals\-Comparator}}
+\index{individuals\-Comparator@{individuals\-Comparator}!net::sf::jclec::selector::WorsesSelector@{net\-::sf\-::jclec\-::selector\-::\-Worses\-Selector}}
+\subsubsection[{individuals\-Comparator}]{\setlength{\rightskip}{0pt plus 5cm}transient Comparator$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-selector.\-Worses\-Selector.\-individuals\-Comparator\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1selector_1_1_worses_selector_a0a02abaad7e94b3c69d0d357616563cc}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=  
+        \textcolor{keyword}{new} Comparator<IIndividual> () 
+        \{
+            
+        
+            \textcolor{keyword}{public} \textcolor{keywordtype}{int} compare(IIndividual arg0, IIndividual arg1) \{
+                \textcolor{keywordflow}{return} fitnessComparator.compare(arg0.getFitness(), arg1.getFitness());
+            \}
+        \}
+\end{DoxyCode}
+Compare individuals 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/selector/Worses\-Selector.\-java\end{DoxyCompactItemize}

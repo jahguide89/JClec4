@@ -1,0 +1,114 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator}{\section{net.\-sf.\-jclec.\-base.\-Repeat\-Mutator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator}\index{net.\-sf.\-jclec.\-base.\-Repeat\-Mutator@{net.\-sf.\-jclec.\-base.\-Repeat\-Mutator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-base.\-Repeat\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_ad136f8c5cca81020bb6603916f0f6735}{Repeat\-Mutator} ()
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_a6df40caad8fc4fb35b1ab0c3dac507fc}{Repeat\-Mutator} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} system)
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_a7ab450ee589ea9a712e16e580cec514e}{configure} (Configuration settings)
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_acf19b510827aecd43c4520430120d163}{mutate} (List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ parents)
+\item 
+boolean \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_affce022ad0e96022d6afaf0b331c5982}{equals} (Object other)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_ac345474a416c54c2c28280626c620691}{number\-Of\-Repetitions}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Repeat Mutator.
+
+Applies a mutator several times over the same individuals set. The number of repetitions is a configuration parameter.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_ad136f8c5cca81020bb6603916f0f6735}{\index{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}!Repeat\-Mutator@{Repeat\-Mutator}}
+\index{Repeat\-Mutator@{Repeat\-Mutator}!net::sf::jclec::base::RepeatMutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}}
+\subsubsection[{Repeat\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Repeat\-Mutator.\-Repeat\-Mutator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_ad136f8c5cca81020bb6603916f0f6735}
+Empty constructor. \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_a6df40caad8fc4fb35b1ab0c3dac507fc}{\index{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}!Repeat\-Mutator@{Repeat\-Mutator}}
+\index{Repeat\-Mutator@{Repeat\-Mutator}!net::sf::jclec::base::RepeatMutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}}
+\subsubsection[{Repeat\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Repeat\-Mutator.\-Repeat\-Mutator (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{system}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_a6df40caad8fc4fb35b1ab0c3dac507fc}
+Empty constructor. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_a7ab450ee589ea9a712e16e580cec514e}{\index{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::base::RepeatMutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-base.\-Repeat\-Mutator.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{settings}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_a7ab450ee589ea9a712e16e580cec514e}
+Configuration method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em settings} & Configuration settings \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_affce022ad0e96022d6afaf0b331c5982}{\index{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}!equals@{equals}}
+\index{equals@{equals}!net::sf::jclec::base::RepeatMutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-base.\-Repeat\-Mutator.\-equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{other}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_affce022ad0e96022d6afaf0b331c5982}
+Compare decorated mutator and mutation probability.\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_acf19b510827aecd43c4520430120d163}{\index{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}!mutate@{mutate}}
+\index{mutate@{mutate}!net::sf::jclec::base::RepeatMutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}}
+\subsubsection[{mutate}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Repeat\-Mutator.\-mutate (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf I\-Individual} $>$}]{parents}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_acf19b510827aecd43c4520430120d163}
+Mutation method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parents} & Individuals to mutate\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Mutation result 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_mutator_a5300cd0df63950ea9f660b24425211fb}{net.\-sf.\-jclec.\-I\-Mutator}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_ac345474a416c54c2c28280626c620691}{\index{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}!number\-Of\-Repetitions@{number\-Of\-Repetitions}}
+\index{number\-Of\-Repetitions@{number\-Of\-Repetitions}!net::sf::jclec::base::RepeatMutator@{net\-::sf\-::jclec\-::base\-::\-Repeat\-Mutator}}
+\subsubsection[{number\-Of\-Repetitions}]{\setlength{\rightskip}{0pt plus 5cm}int net.\-sf.\-jclec.\-base.\-Repeat\-Mutator.\-number\-Of\-Repetitions\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_repeat_mutator_ac345474a416c54c2c28280626c620691}
+Number of repetitions 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/base/Repeat\-Mutator.\-java\end{DoxyCompactItemize}

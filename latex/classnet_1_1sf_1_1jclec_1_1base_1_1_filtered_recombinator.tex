@@ -1,0 +1,216 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator}{\section{net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator}\index{net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator@{net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a1a41eabc84e39fef2c99cc174a69e9b8}{Filtered\-Recombinator} ()
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a2b4d7b17304238ffc20d71e0f4f1186f}{Filtered\-Recombinator} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_recombinator_a9fec99558ae7ddcf3ce82d8293305786}{context})
+\item 
+final double \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a887d9abe4e5e7fe134bbdc716387cb15}{get\-Rec\-Prob} ()
+\item 
+final void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a21dbfdc8caf8740033e890061677ab76}{set\-Rec\-Prob} (double \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_acadc9204c4432d1bb6ff5e8f4a085267}{rec\-Prob})
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_ab492294f4c41c12c8832051623b225f4}{contextualize} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_recombinator_a9fec99558ae7ddcf3ce82d8293305786}{context})
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a5611547b9db9f88087d817c2b896dcec}{recombine} (List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ parents)
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a757a0623d59a36acb068ada503edae20}{get\-Sterile} ()
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a884f05ef201c32db04402b00e9069322}{get\-Fertile} ()
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_abfcf757063e206f5c0ec482be5d9e9c1}{configure} (Configuration settings)
+\item 
+boolean \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_ab14cc17cac864ee477e29e289601d30f}{equals} (Object other)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_acadc9204c4432d1bb6ff5e8f4a085267}{rec\-Prob}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen}{I\-Rand\-Gen} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a8799959adcafbfb3928ed5b901925930}{randgen}
+\item 
+transient List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a11a8bd963d9617d71aa5b2cb834940b6}{fertile} = new Array\-List$<$\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual}$>$ ()
+\item 
+transient List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a868d2538743c6926f579f1b7521011fa}{sterile} = new Array\-List$<$\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual}$>$ ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Filtered recombinator. Recombines individuals with a given recombination probability.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a1a41eabc84e39fef2c99cc174a69e9b8}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!Filtered\-Recombinator@{Filtered\-Recombinator}}
+\index{Filtered\-Recombinator@{Filtered\-Recombinator}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{Filtered\-Recombinator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-Filtered\-Recombinator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a1a41eabc84e39fef2c99cc174a69e9b8}
+Empty constructor \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a2b4d7b17304238ffc20d71e0f4f1186f}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!Filtered\-Recombinator@{Filtered\-Recombinator}}
+\index{Filtered\-Recombinator@{Filtered\-Recombinator}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{Filtered\-Recombinator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-Filtered\-Recombinator (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{context}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a2b4d7b17304238ffc20d71e0f4f1186f}
+Constructor that contextualize this operator.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Execution context \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_abfcf757063e206f5c0ec482be5d9e9c1}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{settings}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_abfcf757063e206f5c0ec482be5d9e9c1}
+Configuration method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em settings} & Configuration settings \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_ab492294f4c41c12c8832051623b225f4}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!contextualize@{contextualize}}
+\index{contextualize@{contextualize}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{contextualize}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-contextualize (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{context}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_ab492294f4c41c12c8832051623b225f4}
+Take a random generator and contextualize decorated recombinator (if exists)
+
+Set the system where ...
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Execution context\\
+\hline
+\end{DoxyParams}
+ 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_tool_aa11b3e046b7f38e40eb4f8c72a9a2102}{net.\-sf.\-jclec.\-I\-Tool}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_ab14cc17cac864ee477e29e289601d30f}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!equals@{equals}}
+\index{equals@{equals}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{other}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_ab14cc17cac864ee477e29e289601d30f}
+Compare decorated mutator and mutation probability.\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a884f05ef201c32db04402b00e9069322}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!get\-Fertile@{get\-Fertile}}
+\index{get\-Fertile@{get\-Fertile}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{get\-Fertile}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-get\-Fertile (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a884f05ef201c32db04402b00e9069322}
+Access to the fertile parents set.
+
+\begin{DoxyReturn}{Returns}
+Fertile parents set 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a887d9abe4e5e7fe134bbdc716387cb15}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!get\-Rec\-Prob@{get\-Rec\-Prob}}
+\index{get\-Rec\-Prob@{get\-Rec\-Prob}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{get\-Rec\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}final double net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-get\-Rec\-Prob (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a887d9abe4e5e7fe134bbdc716387cb15}
+Access to \char`\"{}rec\-Prob\char`\"{} property.
+
+\begin{DoxyReturn}{Returns}
+Actual recombination probability 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a757a0623d59a36acb068ada503edae20}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!get\-Sterile@{get\-Sterile}}
+\index{get\-Sterile@{get\-Sterile}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{get\-Sterile}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-get\-Sterile (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a757a0623d59a36acb068ada503edae20}
+Access to the sterile parents set.
+
+\begin{DoxyReturn}{Returns}
+Sterile parents set 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a5611547b9db9f88087d817c2b896dcec}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!recombine@{recombine}}
+\index{recombine@{recombine}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{recombine}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-recombine (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf I\-Individual} $>$}]{parents}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a5611547b9db9f88087d817c2b896dcec}
+This operator perform ...
+
+Recombination method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parents} & Individuals to recombine\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Recombination result
+\end{DoxyReturn}
+ 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_recombinator_a07721bb7be250aeae6a85e81c527e7a5}{net.\-sf.\-jclec.\-I\-Recombinator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a21dbfdc8caf8740033e890061677ab76}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!set\-Rec\-Prob@{set\-Rec\-Prob}}
+\index{set\-Rec\-Prob@{set\-Rec\-Prob}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{set\-Rec\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}final void net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-set\-Rec\-Prob (
+\begin{DoxyParamCaption}
+\item[{double}]{rec\-Prob}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a21dbfdc8caf8740033e890061677ab76}
+Sets the \char`\"{}rec\-Prob\char`\"{} property.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rec\-Prob} & New recombination probability \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a11a8bd963d9617d71aa5b2cb834940b6}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!fertile@{fertile}}
+\index{fertile@{fertile}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{fertile}]{\setlength{\rightskip}{0pt plus 5cm}transient List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-fertile = new Array\-List$<${\bf I\-Individual}$>$ ()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a11a8bd963d9617d71aa5b2cb834940b6}
+Fertile parents set \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a8799959adcafbfb3928ed5b901925930}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!randgen@{randgen}}
+\index{randgen@{randgen}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{randgen}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Rand\-Gen} net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-randgen\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a8799959adcafbfb3928ed5b901925930}
+Random generator \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_acadc9204c4432d1bb6ff5e8f4a085267}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!rec\-Prob@{rec\-Prob}}
+\index{rec\-Prob@{rec\-Prob}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{rec\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-rec\-Prob\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_acadc9204c4432d1bb6ff5e8f4a085267}
+Mutation probability \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a868d2538743c6926f579f1b7521011fa}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}!sterile@{sterile}}
+\index{sterile@{sterile}!net::sf::jclec::base::FilteredRecombinator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Recombinator}}
+\subsubsection[{sterile}]{\setlength{\rightskip}{0pt plus 5cm}transient List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Recombinator.\-sterile = new Array\-List$<${\bf I\-Individual}$>$ ()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_recombinator_a868d2538743c6926f579f1b7521011fa}
+Sterile parents set 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/base/Filtered\-Recombinator.\-java\end{DoxyCompactItemize}

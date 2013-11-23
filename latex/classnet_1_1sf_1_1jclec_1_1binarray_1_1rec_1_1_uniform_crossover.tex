@@ -1,0 +1,123 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover}{\section{net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover}\index{net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover@{net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a18a36f16881bf4a575c731c6657ed172}{Uniform\-Crossover} ()
+\item 
+final double \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_ad279b6b786cc2c6833454047999ad43b}{get\-Locus\-Crossover\-Prob} ()
+\item 
+final void \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a789d072ad511765a2a832cbde2f87047}{set\-Locus\-Crossover\-Prob} (double cross\-Prob)
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a654cf2adfa7210948d20c7e399bd3172}{configure} (Configuration configuration)
+\item 
+boolean \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a11ddb24278a291f70725401e63208784}{equals} (Object other)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a99715bc9dc84ac4694ee73f1c6789242}{recombine\-Next} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Uniform crossover for \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual}{Bin\-Array\-Individual} and its subclasses
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a18a36f16881bf4a575c731c6657ed172}{\index{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}!Uniform\-Crossover@{Uniform\-Crossover}}
+\index{Uniform\-Crossover@{Uniform\-Crossover}!net::sf::jclec::binarray::rec::UniformCrossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}}
+\subsubsection[{Uniform\-Crossover}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover.\-Uniform\-Crossover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a18a36f16881bf4a575c731c6657ed172}
+Empty constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a654cf2adfa7210948d20c7e399bd3172}{\index{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::binarray::rec::UniformCrossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{configuration}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a654cf2adfa7210948d20c7e399bd3172}
+Configuration method.
+
+Configuration parameters for \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover}{Uniform\-Crossover} are\-:
+
+
+\begin{DoxyItemize}
+\item {\ttfamily \mbox{[}\mbox{]}\-: boolean (default = true)}
+
+If this parameter is set to {\ttfamily true$<$/true$>$ individuals will be evaluated after its creation.  }
+\item {\ttfamily  {\ttfamily \mbox{[}-\/crossover-\/prob\mbox{]}\-: double (default = 0.\-5)}}
+
+{\ttfamily  Locus crossover probability.  }
+\item {\ttfamily  {\ttfamily random-\/generator\-: complex}}
+
+{\ttfamily  Random generator used in individuals mutation. 
+\begin{DoxyItemize}
+\item {\ttfamily random-\/generator\mbox{[}\mbox{]} String (default 'net.\-sf.\-jclec.\-random.\-Ranecu')}  
+\end{DoxyItemize}}
+\end{DoxyItemize}
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a11ddb24278a291f70725401e63208784}{\index{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}!equals@{equals}}
+\index{equals@{equals}!net::sf::jclec::binarray::rec::UniformCrossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover.\-equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{other}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a11ddb24278a291f70725401e63208784}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_ad279b6b786cc2c6833454047999ad43b}{\index{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}!get\-Locus\-Crossover\-Prob@{get\-Locus\-Crossover\-Prob}}
+\index{get\-Locus\-Crossover\-Prob@{get\-Locus\-Crossover\-Prob}!net::sf::jclec::binarray::rec::UniformCrossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}}
+\subsubsection[{get\-Locus\-Crossover\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}final double net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover.\-get\-Locus\-Crossover\-Prob (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_ad279b6b786cc2c6833454047999ad43b}
+\begin{DoxyReturn}{Returns}
+Returns the locus crossover probability 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a99715bc9dc84ac4694ee73f1c6789242}{\index{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}!recombine\-Next@{recombine\-Next}}
+\index{recombine\-Next@{recombine\-Next}!net::sf::jclec::binarray::rec::UniformCrossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}}
+\subsubsection[{recombine\-Next}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover.\-recombine\-Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a99715bc9dc84ac4694ee73f1c6789242}
+Atomic recombination method. This method ... 
+
+Implements \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_recombinator_a1f94790294ad036473b5e1ffa563597e}{net.\-sf.\-jclec.\-base.\-Abstract\-Recombinator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a789d072ad511765a2a832cbde2f87047}{\index{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}!set\-Locus\-Crossover\-Prob@{set\-Locus\-Crossover\-Prob}}
+\index{set\-Locus\-Crossover\-Prob@{set\-Locus\-Crossover\-Prob}!net::sf::jclec::binarray::rec::UniformCrossover@{net\-::sf\-::jclec\-::binarray\-::rec\-::\-Uniform\-Crossover}}
+\subsubsection[{set\-Locus\-Crossover\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}final void net.\-sf.\-jclec.\-binarray.\-rec.\-Uniform\-Crossover.\-set\-Locus\-Crossover\-Prob (
+\begin{DoxyParamCaption}
+\item[{double}]{cross\-Prob}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover_a789d072ad511765a2a832cbde2f87047}
+
+\begin{DoxyParams}{Parameters}
+{\em cross\-Prob} & New locus crossover probability \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/binarray/rec/Uniform\-Crossover.\-java\end{DoxyCompactItemize}

@@ -1,0 +1,144 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population}{\section{net.\-sf.\-jclec.\-Population Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1_population}\index{net.\-sf.\-jclec.\-Population@{net.\-sf.\-jclec.\-Population}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-Population\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classnet_1_1sf_1_1jclec_1_1_population}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_species}{I\-Species} \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a264eeb7f5b84566b0936fa5603cc1cd7}{get\-Species} ()
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_evaluator}{I\-Evaluator} \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a4604a5f5150f3907fc5119260f1cfcec}{get\-Evaluator} ()
+\item 
+int \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a387250a2ae861d921b730eeb863fb82e}{get\-Generation} ()
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a0a8b5dae0fdead702efa0df8d4d3186e}{get\-Inhabitants} ()
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen}{I\-Rand\-Gen} \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a8427e4459d5f7554337a654b363d9714}{create\-Rand\-Gen} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen_factory}{I\-Rand\-Gen\-Factory} \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_afadd9ab271fa5cc1910a2eaef02d70fe}{rand\-Gen\-Factory}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_species}{I\-Species} \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a82f760cdecd431126c517367c9447cea}{species}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_evaluator}{I\-Evaluator} \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_aa075ac6a98248a90051eca5f867a2447}{evaluator}
+\item 
+int \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_aba01ead036006d560073215fdde63f9b}{generation}
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1_population_a97d1e24a033dc306b9fad594353cf9db}{inhabitants}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_population}{I\-Population} implementation. Used as execution context in tool tests.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a8427e4459d5f7554337a654b363d9714}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!create\-Rand\-Gen@{create\-Rand\-Gen}}
+\index{create\-Rand\-Gen@{create\-Rand\-Gen}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{create\-Rand\-Gen}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Rand\-Gen} net.\-sf.\-jclec.\-Population.\-create\-Rand\-Gen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1_population_a8427e4459d5f7554337a654b363d9714}
+Factory method.
+
+\begin{DoxyReturn}{Returns}
+A new instance of a random generator 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen_factory_a03320bb7d2eae4643d02ec66b08db1aa}{net.\-sf.\-jclec.\-util.\-random.\-I\-Rand\-Gen\-Factory}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a4604a5f5150f3907fc5119260f1cfcec}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!get\-Evaluator@{get\-Evaluator}}
+\index{get\-Evaluator@{get\-Evaluator}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{get\-Evaluator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Evaluator} net.\-sf.\-jclec.\-Population.\-get\-Evaluator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1_population_a4604a5f5150f3907fc5119260f1cfcec}
+Access to system evaluator. 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_population_a78237e3d50542f0162bf13d7822d000d}{net.\-sf.\-jclec.\-I\-Population}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a387250a2ae861d921b730eeb863fb82e}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!get\-Generation@{get\-Generation}}
+\index{get\-Generation@{get\-Generation}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{get\-Generation}]{\setlength{\rightskip}{0pt plus 5cm}int net.\-sf.\-jclec.\-Population.\-get\-Generation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1_population_a387250a2ae861d921b730eeb863fb82e}
+Access to actual generation.
+
+\begin{DoxyReturn}{Returns}
+Actual generation 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_population_ac2127430d5cc2a325709165006888486}{net.\-sf.\-jclec.\-I\-Population}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a0a8b5dae0fdead702efa0df8d4d3186e}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!get\-Inhabitants@{get\-Inhabitants}}
+\index{get\-Inhabitants@{get\-Inhabitants}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{get\-Inhabitants}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-Population.\-get\-Inhabitants (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1_population_a0a8b5dae0fdead702efa0df8d4d3186e}
+Access to population inhabitants.
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{classnet_1_1sf_1_1jclec_1_1_population}{Population} inhabitants 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_population_a517e01d663ff3102b555daa5a33befab}{net.\-sf.\-jclec.\-I\-Population}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a264eeb7f5b84566b0936fa5603cc1cd7}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!get\-Species@{get\-Species}}
+\index{get\-Species@{get\-Species}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{get\-Species}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Species} net.\-sf.\-jclec.\-Population.\-get\-Species (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1_population_a264eeb7f5b84566b0936fa5603cc1cd7}
+Access to system species.
+
+\begin{DoxyReturn}{Returns}
+System species 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_population_a7147f7f250f94a395b5e712028eedce4}{net.\-sf.\-jclec.\-I\-Population}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1_population_aa075ac6a98248a90051eca5f867a2447}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!evaluator@{evaluator}}
+\index{evaluator@{evaluator}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{evaluator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Evaluator} net.\-sf.\-jclec.\-Population.\-evaluator\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1_population_aa075ac6a98248a90051eca5f867a2447}
+Individuals evaluator \hypertarget{classnet_1_1sf_1_1jclec_1_1_population_aba01ead036006d560073215fdde63f9b}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!generation@{generation}}
+\index{generation@{generation}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{generation}]{\setlength{\rightskip}{0pt plus 5cm}int net.\-sf.\-jclec.\-Population.\-generation\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1_population_aba01ead036006d560073215fdde63f9b}
+Actual generation \hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a97d1e24a033dc306b9fad594353cf9db}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!inhabitants@{inhabitants}}
+\index{inhabitants@{inhabitants}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{inhabitants}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-Population.\-inhabitants\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1_population_a97d1e24a033dc306b9fad594353cf9db}
+System individuals \hypertarget{classnet_1_1sf_1_1jclec_1_1_population_afadd9ab271fa5cc1910a2eaef02d70fe}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!rand\-Gen\-Factory@{rand\-Gen\-Factory}}
+\index{rand\-Gen\-Factory@{rand\-Gen\-Factory}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{rand\-Gen\-Factory}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Rand\-Gen\-Factory} net.\-sf.\-jclec.\-Population.\-rand\-Gen\-Factory\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1_population_afadd9ab271fa5cc1910a2eaef02d70fe}
+Random generators factory \hypertarget{classnet_1_1sf_1_1jclec_1_1_population_a82f760cdecd431126c517367c9447cea}{\index{net\-::sf\-::jclec\-::\-Population@{net\-::sf\-::jclec\-::\-Population}!species@{species}}
+\index{species@{species}!net::sf::jclec::Population@{net\-::sf\-::jclec\-::\-Population}}
+\subsubsection[{species}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Species} net.\-sf.\-jclec.\-Population.\-species\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1_population_a82f760cdecd431126c517367c9447cea}
+Individuals species 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/test/java/net/sf/jclec/Population.\-java\end{DoxyCompactItemize}

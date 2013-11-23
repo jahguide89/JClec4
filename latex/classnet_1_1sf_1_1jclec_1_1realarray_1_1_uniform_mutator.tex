@@ -1,0 +1,156 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator}{\section{net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator}\index{net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator@{net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.128122cm]{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a3578d7086fa0809e56ee76acee1ee4fd}{Uniform\-Mutator} ()
+\item 
+double \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_aa200893402d70d423d132057380cd34d}{get\-Locus\-Mut\-Prob} ()
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a4c93bb0470fa386c72bca6e433f824cd}{set\-Locus\-Mut\-Prob} (double \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_ab5a0d929acb803f2aea077438a92a231}{locus\-Mut\-Prob})
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a2943ed155a1dc633aee8e6b4a2811ac6}{configure} (Configuration settings)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7c90fd0f74afd20e102f9cbf87014e9b}{mutate\-Next} ()
+\item 
+abstract void \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7f218607a6f472d795048b31a2eb215c}{do\-Locus\-Mutation} (double\mbox{[}$\,$\mbox{]} parent\-Chromosome, double\mbox{[}$\,$\mbox{]} mutant\-Chromosome, int locus\-Index)
+\item 
+abstract double \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a83eb6262ccd87a0998d66af04e95dedb}{default\-Locus\-Mut\-Prob} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_ab5a0d929acb803f2aea077438a92a231}{locus\-Mut\-Prob}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Uniform mutation operator.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a3578d7086fa0809e56ee76acee1ee4fd}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!Uniform\-Mutator@{Uniform\-Mutator}}
+\index{Uniform\-Mutator@{Uniform\-Mutator}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{Uniform\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-Uniform\-Mutator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a3578d7086fa0809e56ee76acee1ee4fd}
+Empty constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a2943ed155a1dc633aee8e6b4a2811ac6}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{settings}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a2943ed155a1dc633aee8e6b4a2811ac6}
+Configuration method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em settings} & Configuration settings \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a83eb6262ccd87a0998d66af04e95dedb}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!default\-Locus\-Mut\-Prob@{default\-Locus\-Mut\-Prob}}
+\index{default\-Locus\-Mut\-Prob@{default\-Locus\-Mut\-Prob}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{default\-Locus\-Mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}abstract double net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-default\-Locus\-Mut\-Prob (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a83eb6262ccd87a0998d66af04e95dedb}
+Set default value for this parameter. 
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_non_uniform_mutator_a14533476312caf431d3c491d5ba050ef}{net.\-sf.\-jclec.\-realarray.\-mut.\-Non\-Uniform\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_modal_continuous_mutator_adaa4109160ccc186c9811f0ec8fab599}{net.\-sf.\-jclec.\-realarray.\-mut.\-Modal\-Continuous\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_random_range_mutator_ab43ed6e7b6a0cc324e41c41f4a7fbe7c}{net.\-sf.\-jclec.\-realarray.\-mut.\-Random\-Range\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_modal_discrete_mutator_addac368f8ad279ab67b9b2916d6e950f}{net.\-sf.\-jclec.\-realarray.\-mut.\-Modal\-Discrete\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_muhlenbein_mutator_a007aa1d662eea4f22cab465e59322276}{net.\-sf.\-jclec.\-realarray.\-mut.\-Muhlenbein\-Mutator}, and \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_random_mutator_ad7c15df67cde465055524cc43609e66d}{net.\-sf.\-jclec.\-realarray.\-mut.\-Random\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7f218607a6f472d795048b31a2eb215c}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!do\-Locus\-Mutation@{do\-Locus\-Mutation}}
+\index{do\-Locus\-Mutation@{do\-Locus\-Mutation}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{do\-Locus\-Mutation}]{\setlength{\rightskip}{0pt plus 5cm}abstract void net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-do\-Locus\-Mutation (
+\begin{DoxyParamCaption}
+\item[{double\mbox{[}$\,$\mbox{]}}]{parent\-Chromosome, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{mutant\-Chromosome, }
+\item[{int}]{locus\-Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7f218607a6f472d795048b31a2eb215c}
+Do mutation operation over an individual locus
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent\-Chromosome} & Parent chromosome \\
+\hline
+{\em mutant\-Chromosome} & Mutant chromosome \\
+\hline
+{\em locus\-Index} & Index of locus to mutate \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_non_uniform_mutator_af1c1768ba9f3dd667ee2760c5c77086d}{net.\-sf.\-jclec.\-realarray.\-mut.\-Non\-Uniform\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_random_range_mutator_a65b990abd0a6143755730aa60f88570b}{net.\-sf.\-jclec.\-realarray.\-mut.\-Random\-Range\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_muhlenbein_mutator_a5554e4f9daca2635330b572a2a8b39d2}{net.\-sf.\-jclec.\-realarray.\-mut.\-Muhlenbein\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_modal_continuous_mutator_a6e076b47f18427a15106bb6da74222df}{net.\-sf.\-jclec.\-realarray.\-mut.\-Modal\-Continuous\-Mutator}, \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_modal_discrete_mutator_a2b46e92727f9c90d406d4e3eb5bc3370}{net.\-sf.\-jclec.\-realarray.\-mut.\-Modal\-Discrete\-Mutator}, and \hyperlink{classnet_1_1sf_1_1jclec_1_1realarray_1_1mut_1_1_random_mutator_a3d2115aeef10ecec76c26fa84f8909de}{net.\-sf.\-jclec.\-realarray.\-mut.\-Random\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_aa200893402d70d423d132057380cd34d}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!get\-Locus\-Mut\-Prob@{get\-Locus\-Mut\-Prob}}
+\index{get\-Locus\-Mut\-Prob@{get\-Locus\-Mut\-Prob}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{get\-Locus\-Mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-get\-Locus\-Mut\-Prob (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_aa200893402d70d423d132057380cd34d}
+Get locus mutation probability.
+
+\begin{DoxyReturn}{Returns}
+Locus mutation probability 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7c90fd0f74afd20e102f9cbf87014e9b}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!mutate\-Next@{mutate\-Next}}
+\index{mutate\-Next@{mutate\-Next}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{mutate\-Next}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-mutate\-Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a7c90fd0f74afd20e102f9cbf87014e9b}
+Atomic mutation method. This method... 
+
+Implements \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_acad18bae2458fe06812b321d43f3499e}{net.\-sf.\-jclec.\-base.\-Abstract\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a4c93bb0470fa386c72bca6e433f824cd}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!set\-Locus\-Mut\-Prob@{set\-Locus\-Mut\-Prob}}
+\index{set\-Locus\-Mut\-Prob@{set\-Locus\-Mut\-Prob}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{set\-Locus\-Mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-set\-Locus\-Mut\-Prob (
+\begin{DoxyParamCaption}
+\item[{double}]{locus\-Mut\-Prob}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_a4c93bb0470fa386c72bca6e433f824cd}
+Set locus mutation probability
+
+
+\begin{DoxyParams}{Parameters}
+{\em locus\-Mut\-Prob} & Locus mutation probability \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_ab5a0d929acb803f2aea077438a92a231}{\index{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}!locus\-Mut\-Prob@{locus\-Mut\-Prob}}
+\index{locus\-Mut\-Prob@{locus\-Mut\-Prob}!net::sf::jclec::realarray::UniformMutator@{net\-::sf\-::jclec\-::realarray\-::\-Uniform\-Mutator}}
+\subsubsection[{locus\-Mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-realarray.\-Uniform\-Mutator.\-locus\-Mut\-Prob\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator_ab5a0d929acb803f2aea077438a92a231}
+Mutation probability for several locus 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/realarray/Uniform\-Mutator.\-java\end{DoxyCompactItemize}

@@ -1,0 +1,103 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator}{\section{net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator}\index{net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator@{net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.648208cm]{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_aa65bf77eb2b0b98e482c464047ec1f4f}{configure} (Configuration settings)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abc579c6ab91161c80f75e2f643b864ac}{prepare\-Mutation} ()
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a639c8a190fed6f77db9844dfce7a4f6c}{mutate\-Next} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_aa35158c7c8029992a6c5679123583e50}{target\-Tree\-Index} = -\/1
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1syntaxtree_1_1_i_mutate_syntax_tree}{I\-Mutate\-Syntax\-Tree} \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a80f98be790fb43998e0937ad1bbf4ec4}{base\-Op}
+\item 
+transient \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_species}{Multi\-Syntax\-Tree\-Species} \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abe1fb65f82e0e91a6bbfd53492c767f6}{species}
+\item 
+transient \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_schema}{Syntax\-Tree\-Schema}\mbox{[}$\,$\mbox{]} \hyperlink{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_ac6c7570c521c38b33d6279906c1101cf}{schema}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Mutator for Expr\-Tree\-Individual (and its subclasses).
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_aa65bf77eb2b0b98e482c464047ec1f4f}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{settings}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_aa65bf77eb2b0b98e482c464047ec1f4f}
+Configuration method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em settings} & Configuration settings\\
+\hline
+\end{DoxyParams}
+ 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a639c8a190fed6f77db9844dfce7a4f6c}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!mutate\-Next@{mutate\-Next}}
+\index{mutate\-Next@{mutate\-Next}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{mutate\-Next}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-mutate\-Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a639c8a190fed6f77db9844dfce7a4f6c}
+Atomic mutation method. This method... 
+
+Implements \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_acad18bae2458fe06812b321d43f3499e}{net.\-sf.\-jclec.\-base.\-Abstract\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abc579c6ab91161c80f75e2f643b864ac}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!prepare\-Mutation@{prepare\-Mutation}}
+\index{prepare\-Mutation@{prepare\-Mutation}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{prepare\-Mutation}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-prepare\-Mutation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abc579c6ab91161c80f75e2f643b864ac}
+Prepare mutation process. 
+
+Implements \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_abstract_mutator_ad12e6a2be8fb6082255ce8f399c9b166}{net.\-sf.\-jclec.\-base.\-Abstract\-Mutator}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a80f98be790fb43998e0937ad1bbf4ec4}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!base\-Op@{base\-Op}}
+\index{base\-Op@{base\-Op}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{base\-Op}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Mutate\-Syntax\-Tree} net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-base\-Op\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_a80f98be790fb43998e0937ad1bbf4ec4}
+Base operation for this expression tree mutator \hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_ac6c7570c521c38b33d6279906c1101cf}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!schema@{schema}}
+\index{schema@{schema}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{schema}]{\setlength{\rightskip}{0pt plus 5cm}transient {\bf Syntax\-Tree\-Schema} \mbox{[}$\,$\mbox{]} net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-schema\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_ac6c7570c521c38b33d6279906c1101cf}
+Individuals schema \hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abe1fb65f82e0e91a6bbfd53492c767f6}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!species@{species}}
+\index{species@{species}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{species}]{\setlength{\rightskip}{0pt plus 5cm}transient {\bf Multi\-Syntax\-Tree\-Species} net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-species\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_abe1fb65f82e0e91a6bbfd53492c767f6}
+Individual species \hypertarget{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_aa35158c7c8029992a6c5679123583e50}{\index{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}!target\-Tree\-Index@{target\-Tree\-Index}}
+\index{target\-Tree\-Index@{target\-Tree\-Index}!net::sf::jclec::multisyntaxtree::MultiSyntaxTreeMutator@{net\-::sf\-::jclec\-::multisyntaxtree\-::\-Multi\-Syntax\-Tree\-Mutator}}
+\subsubsection[{target\-Tree\-Index}]{\setlength{\rightskip}{0pt plus 5cm}int net.\-sf.\-jclec.\-multisyntaxtree.\-Multi\-Syntax\-Tree\-Mutator.\-target\-Tree\-Index = -\/1\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator_aa35158c7c8029992a6c5679123583e50}
+Target tree index 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/multisyntaxtree/Multi\-Syntax\-Tree\-Mutator.\-java\end{DoxyCompactItemize}

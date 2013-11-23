@@ -1,0 +1,165 @@
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range}{\section{net.\-sf.\-jclec.\-util.\-range.\-I\-Range Interface Reference}
+\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range}\index{net.\-sf.\-jclec.\-util.\-range.\-I\-Range@{net.\-sf.\-jclec.\-util.\-range.\-I\-Range}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-util.\-range.\-I\-Range\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_ac7a975f941b73f87bc7d3a4805a43edf}{contains} (double value)
+\item 
+double \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_ade59cc10b65395811df1a749cd9e48c3}{ef\-Width} ()
+\item 
+double \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a27a382f354d817eb903da4cd4ff86e09}{get\-Random} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen}{I\-Rand\-Gen} randgen)
+\item 
+double \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a11c7b1826237eb8b886d8ae9c2a65b87}{nearest\-Of} (double value)
+\item 
+double \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a46de0f42118c17caae262323209d5db1}{scale} (double value)
+\item 
+double \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a13624d52844618f5058e1ff3b9b65fbc}{unscale} (double value)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Real values range
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura Soto 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_ac7a975f941b73f87bc7d3a4805a43edf}{\index{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}!contains@{contains}}
+\index{contains@{contains}!net::sf::jclec::util::range::IRange@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-util.\-range.\-I\-Range.\-contains (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_ac7a975f941b73f87bc7d3a4805a43edf}
+Returns true if value belongs to this range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value that will be tested\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if this value... 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval_a5fbcb4447ef3b221b3a4886b9c3fdacd}{net.\-sf.\-jclec.\-util.\-range.\-Interval}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_ade59cc10b65395811df1a749cd9e48c3}{\index{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}!ef\-Width@{ef\-Width}}
+\index{ef\-Width@{ef\-Width}!net::sf::jclec::util::range::IRange@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}}
+\subsubsection[{ef\-Width}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-util.\-range.\-I\-Range.\-ef\-Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_ade59cc10b65395811df1a749cd9e48c3}
+Effective range width.
+
+In intervals, this value is the difference between effective extrema (right minus left). In the case of an disjoint intervals set, is the sum of effective intervals widths.
+
+This value is used in ...
+
+\begin{DoxyReturn}{Returns}
+Effective width 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval_a2cbf7cfb3266805b50bd2c4d594d311a}{net.\-sf.\-jclec.\-util.\-range.\-Interval}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a27a382f354d817eb903da4cd4ff86e09}{\index{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}!get\-Random@{get\-Random}}
+\index{get\-Random@{get\-Random}!net::sf::jclec::util::range::IRange@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}}
+\subsubsection[{get\-Random}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-util.\-range.\-I\-Range.\-get\-Random (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Rand\-Gen}}]{randgen}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a27a382f354d817eb903da4cd4ff86e09}
+Returns a random value contained in this range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em randgen} & Random generator used.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A random value ... 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval_aadbaa7399544bf2e40ad8d690314d737}{net.\-sf.\-jclec.\-util.\-range.\-Interval}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a11c7b1826237eb8b886d8ae9c2a65b87}{\index{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}!nearest\-Of@{nearest\-Of}}
+\index{nearest\-Of@{nearest\-Of}!net::sf::jclec::util::range::IRange@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}}
+\subsubsection[{nearest\-Of}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-util.\-range.\-I\-Range.\-nearest\-Of (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a11c7b1826237eb8b886d8ae9c2a65b87}
+Returns the nearest value, belonging to this range
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value ...\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nearest value to \char`\"{}value\char`\"{} 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval_af58056803c1cd8d2d6ff374e5554a72f}{net.\-sf.\-jclec.\-util.\-range.\-Interval}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a46de0f42118c17caae262323209d5db1}{\index{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}!scale@{scale}}
+\index{scale@{scale}!net::sf::jclec::util::range::IRange@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}}
+\subsubsection[{scale}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-util.\-range.\-I\-Range.\-scale (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a46de0f42118c17caae262323209d5db1}
+Takes a velue in the range \mbox{[}0.\-0, 1.\-0\mbox{]} and returns a value \char`\"{}v\char`\"{}, that belongs to the range and ...
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value ...\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Scaled value 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval_a061d4998b1c59da40a7fc707c9dfef5a}{net.\-sf.\-jclec.\-util.\-range.\-Interval}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a13624d52844618f5058e1ff3b9b65fbc}{\index{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}!unscale@{unscale}}
+\index{unscale@{unscale}!net::sf::jclec::util::range::IRange@{net\-::sf\-::jclec\-::util\-::range\-::\-I\-Range}}
+\subsubsection[{unscale}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-util.\-range.\-I\-Range.\-unscale (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1util_1_1range_1_1_i_range_a13624d52844618f5058e1ff3b9b65fbc}
+Receives a value belonging to the interval...
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value...\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Unscaled value 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval_a8075df146f02571b4540db5cc81c2f20}{net.\-sf.\-jclec.\-util.\-range.\-Interval}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/util/range/I\-Range.\-java\end{DoxyCompactItemize}

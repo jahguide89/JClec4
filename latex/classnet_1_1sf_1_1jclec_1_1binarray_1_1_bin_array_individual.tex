@@ -1,0 +1,100 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual}{\section{net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual}\index{net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual@{net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual}}
+}
+
+
+Inherits Abstract\-Individual$<$ byte\mbox{[}$\,$\mbox{]}$>$.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a6f3b262ce40ab0f32682db1314028a57}{Bin\-Array\-Individual} ()
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a4d9520028aa83ebc8d3e98b3222325ca}{Bin\-Array\-Individual} (byte\mbox{[}$\,$\mbox{]} genotype)
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_ae4dc7399e002695b4e19b87bebde3426}{Bin\-Array\-Individual} (byte\mbox{[}$\,$\mbox{]} genotype, \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_fitness}{I\-Fitness} fitness)
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a72eb137ff7c41ebd5550912fa471e445}{copy} ()
+\item 
+double \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_aeea50e4dfb9c21f14f26ac07b158e0d0}{distance} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} other)
+\item 
+boolean \hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a5a3976a715d5c315a39e7969f0e64be6}{equals} (Object other)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Individual with a byte array as genotype.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a6f3b262ce40ab0f32682db1314028a57}{\index{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}!Bin\-Array\-Individual@{Bin\-Array\-Individual}}
+\index{Bin\-Array\-Individual@{Bin\-Array\-Individual}!net::sf::jclec::binarray::BinArrayIndividual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}}
+\subsubsection[{Bin\-Array\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual.\-Bin\-Array\-Individual (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a6f3b262ce40ab0f32682db1314028a57}
+Empty constructor \hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a4d9520028aa83ebc8d3e98b3222325ca}{\index{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}!Bin\-Array\-Individual@{Bin\-Array\-Individual}}
+\index{Bin\-Array\-Individual@{Bin\-Array\-Individual}!net::sf::jclec::binarray::BinArrayIndividual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}}
+\subsubsection[{Bin\-Array\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual.\-Bin\-Array\-Individual (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{genotype}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a4d9520028aa83ebc8d3e98b3222325ca}
+Constructor that sets individual genotype.
+
+
+\begin{DoxyParams}{Parameters}
+{\em genotype} & Individual genotype \\
+\hline
+\end{DoxyParams}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_ae4dc7399e002695b4e19b87bebde3426}{\index{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}!Bin\-Array\-Individual@{Bin\-Array\-Individual}}
+\index{Bin\-Array\-Individual@{Bin\-Array\-Individual}!net::sf::jclec::binarray::BinArrayIndividual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}}
+\subsubsection[{Bin\-Array\-Individual}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual.\-Bin\-Array\-Individual (
+\begin{DoxyParamCaption}
+\item[{byte\mbox{[}$\,$\mbox{]}}]{genotype, }
+\item[{{\bf I\-Fitness}}]{fitness}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_ae4dc7399e002695b4e19b87bebde3426}
+Constructor that sets individual genotype and fitness.
+
+
+\begin{DoxyParams}{Parameters}
+{\em genotype} & Individual genotype \\
+\hline
+{\em fitness} & Individual fitness \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a72eb137ff7c41ebd5550912fa471e445}{\index{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}!copy@{copy}}
+\index{copy@{copy}!net::sf::jclec::binarray::BinArrayIndividual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Individual} net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual.\-copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a72eb137ff7c41ebd5550912fa471e445}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_aeea50e4dfb9c21f14f26ac07b158e0d0}{\index{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}!distance@{distance}}
+\index{distance@{distance}!net::sf::jclec::binarray::BinArrayIndividual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}}
+\subsubsection[{distance}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual.\-distance (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Individual}}]{other}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_aeea50e4dfb9c21f14f26ac07b158e0d0}
+\hyperlink{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual}{Bin\-Array\-Individual} uses the Hamming distance for setting differences between individuals -\/ at genotype level.\hypertarget{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a5a3976a715d5c315a39e7969f0e64be6}{\index{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}!equals@{equals}}
+\index{equals@{equals}!net::sf::jclec::binarray::BinArrayIndividual@{net\-::sf\-::jclec\-::binarray\-::\-Bin\-Array\-Individual}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-binarray.\-Bin\-Array\-Individual.\-equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{other}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_a5a3976a715d5c315a39e7969f0e64be6}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/binarray/Bin\-Array\-Individual.\-java\end{DoxyCompactItemize}

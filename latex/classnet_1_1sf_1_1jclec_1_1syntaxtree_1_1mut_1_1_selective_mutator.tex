@@ -1,0 +1,132 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator}{\section{net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator}\index{net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator@{net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a53c051349cf453211ce2b56a263998fe}{Selective\-Mutator} ()
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_ad1e56d2da4e031a14721749877767e49}{configure} (Configuration settings)
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree}{Syntax\-Tree} \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a3b8db22a61953ae41ea6ef140dede05c}{mutate\-Syntax\-Tree} (\hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree}{Syntax\-Tree} parent, \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_schema}{Syntax\-Tree\-Schema} schema, \hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen}{I\-Rand\-Gen} randgen)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a378c6efb5be37bcfbb535268a07cac2d}{maximum\-Brach\-Depth}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_non_terminal_node}{Non\-Terminal\-Node}\mbox{[}$\,$\mbox{]} \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a0050f8a06de4c065b427c5be8d700df5}{selected\-Symbols}
+\item 
+transient Comparator\\*
+$<$ \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_node}{Syntax\-Tree\-Node} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a1ec0754396acce41f549a70a6b7ac88c}{symbols\-Comparator}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Selective mutator.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+
+Amelia Zafra 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a53c051349cf453211ce2b56a263998fe}{\index{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}!Selective\-Mutator@{Selective\-Mutator}}
+\index{Selective\-Mutator@{Selective\-Mutator}!net::sf::jclec::syntaxtree::mut::SelectiveMutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}}
+\subsubsection[{Selective\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator.\-Selective\-Mutator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a53c051349cf453211ce2b56a263998fe}
+Empty constructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_ad1e56d2da4e031a14721749877767e49}{\index{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::syntaxtree::mut::SelectiveMutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{settings}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_ad1e56d2da4e031a14721749877767e49}
+Configuration method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em settings} & Configuration settings \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a3b8db22a61953ae41ea6ef140dede05c}{\index{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}!mutate\-Syntax\-Tree@{mutate\-Syntax\-Tree}}
+\index{mutate\-Syntax\-Tree@{mutate\-Syntax\-Tree}!net::sf::jclec::syntaxtree::mut::SelectiveMutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}}
+\subsubsection[{mutate\-Syntax\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Syntax\-Tree} net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator.\-mutate\-Syntax\-Tree (
+\begin{DoxyParamCaption}
+\item[{{\bf Syntax\-Tree}}]{tree, }
+\item[{{\bf Syntax\-Tree\-Schema}}]{tree\-Schema, }
+\item[{{\bf I\-Rand\-Gen}}]{randgen}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a3b8db22a61953ae41ea6ef140dede05c}
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & \\
+\hline
+{\em tree\-Schema} & \\
+\hline
+{\em randgen} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new expression tree 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1syntaxtree_1_1_i_mutate_syntax_tree_ac458c63a51084cb0614e5afc5e523625}{net.\-sf.\-jclec.\-syntaxtree.\-I\-Mutate\-Syntax\-Tree}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a378c6efb5be37bcfbb535268a07cac2d}{\index{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}!maximum\-Brach\-Depth@{maximum\-Brach\-Depth}}
+\index{maximum\-Brach\-Depth@{maximum\-Brach\-Depth}!net::sf::jclec::syntaxtree::mut::SelectiveMutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}}
+\subsubsection[{maximum\-Brach\-Depth}]{\setlength{\rightskip}{0pt plus 5cm}int net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator.\-maximum\-Brach\-Depth\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a378c6efb5be37bcfbb535268a07cac2d}
+Maximum mutated brach depth for the sons created \hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a0050f8a06de4c065b427c5be8d700df5}{\index{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}!selected\-Symbols@{selected\-Symbols}}
+\index{selected\-Symbols@{selected\-Symbols}!net::sf::jclec::syntaxtree::mut::SelectiveMutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}}
+\subsubsection[{selected\-Symbols}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Non\-Terminal\-Node} \mbox{[}$\,$\mbox{]} net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator.\-selected\-Symbols\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a0050f8a06de4c065b427c5be8d700df5}
+Symbols in this mutation operation \hypertarget{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a1ec0754396acce41f549a70a6b7ac88c}{\index{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}!symbols\-Comparator@{symbols\-Comparator}}
+\index{symbols\-Comparator@{symbols\-Comparator}!net::sf::jclec::syntaxtree::mut::SelectiveMutator@{net\-::sf\-::jclec\-::syntaxtree\-::mut\-::\-Selective\-Mutator}}
+\subsubsection[{symbols\-Comparator}]{\setlength{\rightskip}{0pt plus 5cm}transient Comparator$<${\bf Syntax\-Tree\-Node}$>$ net.\-sf.\-jclec.\-syntaxtree.\-mut.\-Selective\-Mutator.\-symbols\-Comparator\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator_a1ec0754396acce41f549a70a6b7ac88c}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} Comparator<SyntaxTreeNode> () 
+    \{
+        \textcolor{keyword}{public} \textcolor{keywordtype}{int} compare(SyntaxTreeNode o1, SyntaxTreeNode o2) 
+        \{           
+            \textcolor{keywordflow}{if} (o1 instanceof NonTerminalNode && o2 instanceof NonTerminalNode) \{
+                NonTerminalNode co1 = (NonTerminalNode) o1;
+                NonTerminalNode co2 = (NonTerminalNode) o2;
+                EqualsBuilder eb = \textcolor{keyword}{new} EqualsBuilder();
+                eb.append(co1.getSymbol(), co2.getSymbol());
+                
+                \textcolor{keywordflow}{if}(eb.isEquals())
+                    \textcolor{keywordflow}{return} 0;
+                \textcolor{keywordflow}{else}
+                    \textcolor{keywordflow}{return} -1;
+            \}
+            \textcolor{keywordflow}{return} -1;
+        \}   
+    \}
+\end{DoxyCode}
+Used to compare symbols 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/syntaxtree/mut/Selective\-Mutator.\-java\end{DoxyCompactItemize}

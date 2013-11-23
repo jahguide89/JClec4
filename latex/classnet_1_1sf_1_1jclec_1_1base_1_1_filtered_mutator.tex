@@ -1,0 +1,204 @@
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator}{\section{net.\-sf.\-jclec.\-base.\-Filtered\-Mutator Class Reference}
+\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator}\index{net.\-sf.\-jclec.\-base.\-Filtered\-Mutator@{net.\-sf.\-jclec.\-base.\-Filtered\-Mutator}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-base.\-Filtered\-Mutator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a8d57508927040d3b1538ca3d2173a6ee}{Filtered\-Mutator} ()
+\item 
+\hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_af32a7cbc7b7804064665f259462d21e5}{Filtered\-Mutator} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_mutator_a0f500ae1072a9663fa96475891c074bc}{context})
+\item 
+final double \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ad7f2ca81314e6806dc6b2f4e18e3b25a}{get\-Mut\-Prob} ()
+\item 
+final void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a3d69423a21fea9eadf14aaa42c5784e3}{set\-Mut\-Prob} (double \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac5ca6f680430f923bc7e92a7de095721}{mut\-Prob})
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ae5664f7971d88d670a061b2057774e83}{contextualize} (\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_system}{I\-System} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_mutator_a0f500ae1072a9663fa96475891c074bc}{context})
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a2664243ad8b112a7928ded718da6e5d5}{mutate} (List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ parents)
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac2b4533802c2048c60b176533e50c573}{get\-Sterile} ()
+\item 
+List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ab7e133065fd51bde74cfc58d39c53e9a}{get\-Fertile} ()
+\item 
+void \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a7927e4ea992f2c8dfff69ddd4d66b298}{configure} (Configuration settings)
+\item 
+boolean \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ae142320a5476894c05893cbcdb25eaac}{equals} (Object other)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac5ca6f680430f923bc7e92a7de095721}{mut\-Prob}
+\item 
+\hyperlink{interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen}{I\-Rand\-Gen} \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a846465d238479e38f6a752eed781cc2b}{randgen}
+\item 
+transient List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_aac6607c708d1937e2048a190da3d9b8b}{fertile} = new Array\-List$<$\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual}$>$ ()
+\item 
+transient List$<$ \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual} $>$ \hyperlink{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a71f85310ce71199fa74922a7ed4d8088}{sterile} = new Array\-List$<$\hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_individual}{I\-Individual}$>$ ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Filtered mutator. Mutates individuals with a given mutation probability.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a8d57508927040d3b1538ca3d2173a6ee}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!Filtered\-Mutator@{Filtered\-Mutator}}
+\index{Filtered\-Mutator@{Filtered\-Mutator}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{Filtered\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-Filtered\-Mutator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a8d57508927040d3b1538ca3d2173a6ee}
+Empty constructor \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_af32a7cbc7b7804064665f259462d21e5}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!Filtered\-Mutator@{Filtered\-Mutator}}
+\index{Filtered\-Mutator@{Filtered\-Mutator}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{Filtered\-Mutator}]{\setlength{\rightskip}{0pt plus 5cm}net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-Filtered\-Mutator (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{context}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_af32a7cbc7b7804064665f259462d21e5}
+Constructor that contextualize this operator.
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Execution context \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a7927e4ea992f2c8dfff69ddd4d66b298}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!configure@{configure}}
+\index{configure@{configure}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{configure}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-configure (
+\begin{DoxyParamCaption}
+\item[{Configuration}]{settings}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a7927e4ea992f2c8dfff69ddd4d66b298}
+Configuration method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em settings} & Configuration settings \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_configure_add31a65a04d148c690a956fbbad6987c}{net.\-sf.\-jclec.\-I\-Configure}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ae5664f7971d88d670a061b2057774e83}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!contextualize@{contextualize}}
+\index{contextualize@{contextualize}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{contextualize}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-contextualize (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-System}}]{context}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ae5664f7971d88d670a061b2057774e83}
+Contextualize decorated mutator (if exists)
+
+Set the system where ...
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Execution context\\
+\hline
+\end{DoxyParams}
+ 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_tool_aa11b3e046b7f38e40eb4f8c72a9a2102}{net.\-sf.\-jclec.\-I\-Tool}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ae142320a5476894c05893cbcdb25eaac}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!equals@{equals}}
+\index{equals@{equals}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{equals}]{\setlength{\rightskip}{0pt plus 5cm}boolean net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{other}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ae142320a5476894c05893cbcdb25eaac}
+Compare decorated mutator, mutation probability and randgen.\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ab7e133065fd51bde74cfc58d39c53e9a}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!get\-Fertile@{get\-Fertile}}
+\index{get\-Fertile@{get\-Fertile}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{get\-Fertile}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-get\-Fertile (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ab7e133065fd51bde74cfc58d39c53e9a}
+Access to the fertile parents set.
+
+\begin{DoxyReturn}{Returns}
+Fertile parents set 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ad7f2ca81314e6806dc6b2f4e18e3b25a}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!get\-Mut\-Prob@{get\-Mut\-Prob}}
+\index{get\-Mut\-Prob@{get\-Mut\-Prob}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{get\-Mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}final double net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-get\-Mut\-Prob (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ad7f2ca81314e6806dc6b2f4e18e3b25a}
+Access to \char`\"{}mut\-Prob\char`\"{} property.
+
+\begin{DoxyReturn}{Returns}
+Actual mutation probability 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac2b4533802c2048c60b176533e50c573}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!get\-Sterile@{get\-Sterile}}
+\index{get\-Sterile@{get\-Sterile}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{get\-Sterile}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-get\-Sterile (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac2b4533802c2048c60b176533e50c573}
+Access to the sterile parents set.
+
+\begin{DoxyReturn}{Returns}
+Sterile parents set 
+\end{DoxyReturn}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a2664243ad8b112a7928ded718da6e5d5}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!mutate@{mutate}}
+\index{mutate@{mutate}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{mutate}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-mutate (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf I\-Individual} $>$}]{parents}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a2664243ad8b112a7928ded718da6e5d5}
+This operator perform ... 
+
+Implements \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_mutator_a5300cd0df63950ea9f660b24425211fb}{net.\-sf.\-jclec.\-I\-Mutator}.
+
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a3d69423a21fea9eadf14aaa42c5784e3}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!set\-Mut\-Prob@{set\-Mut\-Prob}}
+\index{set\-Mut\-Prob@{set\-Mut\-Prob}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{set\-Mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}final void net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-set\-Mut\-Prob (
+\begin{DoxyParamCaption}
+\item[{double}]{mut\-Prob}
+\end{DoxyParamCaption}
+)}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a3d69423a21fea9eadf14aaa42c5784e3}
+Sets the \char`\"{}mut\-Prob\char`\"{} property.
+
+
+\begin{DoxyParams}{Parameters}
+{\em mut\-Prob} & New mutation probability \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_aac6607c708d1937e2048a190da3d9b8b}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!fertile@{fertile}}
+\index{fertile@{fertile}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{fertile}]{\setlength{\rightskip}{0pt plus 5cm}transient List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-fertile = new Array\-List$<${\bf I\-Individual}$>$ ()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_aac6607c708d1937e2048a190da3d9b8b}
+Fertile parents set \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac5ca6f680430f923bc7e92a7de095721}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!mut\-Prob@{mut\-Prob}}
+\index{mut\-Prob@{mut\-Prob}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{mut\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}double net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-mut\-Prob\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_ac5ca6f680430f923bc7e92a7de095721}
+Mutation probability \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a846465d238479e38f6a752eed781cc2b}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!randgen@{randgen}}
+\index{randgen@{randgen}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{randgen}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Rand\-Gen} net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-randgen\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a846465d238479e38f6a752eed781cc2b}
+Random generator \hypertarget{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a71f85310ce71199fa74922a7ed4d8088}{\index{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}!sterile@{sterile}}
+\index{sterile@{sterile}!net::sf::jclec::base::FilteredMutator@{net\-::sf\-::jclec\-::base\-::\-Filtered\-Mutator}}
+\subsubsection[{sterile}]{\setlength{\rightskip}{0pt plus 5cm}transient List$<${\bf I\-Individual}$>$ net.\-sf.\-jclec.\-base.\-Filtered\-Mutator.\-sterile = new Array\-List$<${\bf I\-Individual}$>$ ()\hspace{0.3cm}{\ttfamily [protected]}}}\label{classnet_1_1sf_1_1jclec_1_1base_1_1_filtered_mutator_a71f85310ce71199fa74922a7ed4d8088}
+Sterile parents set 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/base/Filtered\-Mutator.\-java\end{DoxyCompactItemize}

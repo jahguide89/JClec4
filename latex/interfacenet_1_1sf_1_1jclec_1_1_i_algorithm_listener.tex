@@ -1,0 +1,108 @@
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener}{\section{net.\-sf.\-jclec.\-I\-Algorithm\-Listener Interface Reference}
+\label{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener}\index{net.\-sf.\-jclec.\-I\-Algorithm\-Listener@{net.\-sf.\-jclec.\-I\-Algorithm\-Listener}}
+}
+Inheritance diagram for net.\-sf.\-jclec.\-I\-Algorithm\-Listener\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a32c2170367223947f81b8e56a0296a76}{algorithm\-Started} (\hyperlink{classnet_1_1sf_1_1jclec_1_1_algorithm_event}{Algorithm\-Event} event)
+\item 
+void \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a8f618b1d3650433ae2ad6cd3b96a643a}{iteration\-Completed} (\hyperlink{classnet_1_1sf_1_1jclec_1_1_algorithm_event}{Algorithm\-Event} event)
+\item 
+void \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a272a6bd603ad3cac921eadad48bafdf4}{algorithm\-Finished} (\hyperlink{classnet_1_1sf_1_1jclec_1_1_algorithm_event}{Algorithm\-Event} event)
+\item 
+void \hyperlink{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a478a9ebb4a660c38601a14863242de2b}{algorithm\-Terminated} (\hyperlink{classnet_1_1sf_1_1jclec_1_1_algorithm_event}{Algorithm\-Event} e)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Algorithm listener.
+
+\begin{DoxyAuthor}{Author}
+Sebastian Ventura 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a272a6bd603ad3cac921eadad48bafdf4}{\index{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}!algorithm\-Finished@{algorithm\-Finished}}
+\index{algorithm\-Finished@{algorithm\-Finished}!net::sf::jclec::IAlgorithmListener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}}
+\subsubsection[{algorithm\-Finished}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-I\-Algorithm\-Listener.\-algorithm\-Finished (
+\begin{DoxyParamCaption}
+\item[{{\bf Algorithm\-Event}}]{event}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a272a6bd603ad3cac921eadad48bafdf4}
+This event is fired when the algorithm has completed normally.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & An event containing a reference to the source algorithm. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1listener_1_1_population_reporter_aaa7888feee87dcd8e330cf896976da45}{net.\-sf.\-jclec.\-listener.\-Population\-Reporter}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a32c2170367223947f81b8e56a0296a76}{\index{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}!algorithm\-Started@{algorithm\-Started}}
+\index{algorithm\-Started@{algorithm\-Started}!net::sf::jclec::IAlgorithmListener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}}
+\subsubsection[{algorithm\-Started}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-I\-Algorithm\-Listener.\-algorithm\-Started (
+\begin{DoxyParamCaption}
+\item[{{\bf Algorithm\-Event}}]{event}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a32c2170367223947f81b8e56a0296a76}
+This event is fired when the algorithm has completed normally.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & An event containing a reference to the source algorithm. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1listener_1_1_population_reporter_a8a431829c199f6d45007c385ca85cf29}{net.\-sf.\-jclec.\-listener.\-Population\-Reporter}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a478a9ebb4a660c38601a14863242de2b}{\index{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}!algorithm\-Terminated@{algorithm\-Terminated}}
+\index{algorithm\-Terminated@{algorithm\-Terminated}!net::sf::jclec::IAlgorithmListener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}}
+\subsubsection[{algorithm\-Terminated}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-I\-Algorithm\-Listener.\-algorithm\-Terminated (
+\begin{DoxyParamCaption}
+\item[{{\bf Algorithm\-Event}}]{e}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a478a9ebb4a660c38601a14863242de2b}
+This event is fired when the algorithm is terminated abnormally.
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & an event containing a reference to the source algorithm. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1listener_1_1_population_reporter_a5ca186fb0818c6da3f60c24fb7a4208a}{net.\-sf.\-jclec.\-listener.\-Population\-Reporter}.
+
+\hypertarget{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a8f618b1d3650433ae2ad6cd3b96a643a}{\index{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}!iteration\-Completed@{iteration\-Completed}}
+\index{iteration\-Completed@{iteration\-Completed}!net::sf::jclec::IAlgorithmListener@{net\-::sf\-::jclec\-::\-I\-Algorithm\-Listener}}
+\subsubsection[{iteration\-Completed}]{\setlength{\rightskip}{0pt plus 5cm}void net.\-sf.\-jclec.\-I\-Algorithm\-Listener.\-iteration\-Completed (
+\begin{DoxyParamCaption}
+\item[{{\bf Algorithm\-Event}}]{event}
+\end{DoxyParamCaption}
+)}}\label{interfacenet_1_1sf_1_1jclec_1_1_i_algorithm_listener_a8f618b1d3650433ae2ad6cd3b96a643a}
+This event is fired when the algorithm is terminated abnormally.
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & An event containing a reference to the source algorithm. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{classnet_1_1sf_1_1jclec_1_1listener_1_1_population_reporter_aed679fe96d46074859a369ac899ef85c}{net.\-sf.\-jclec.\-listener.\-Population\-Reporter}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/net/sf/jclec/I\-Algorithm\-Listener.\-java\end{DoxyCompactItemize}

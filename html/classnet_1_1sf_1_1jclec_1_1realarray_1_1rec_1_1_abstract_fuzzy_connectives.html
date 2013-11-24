@@ -40,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -99,14 +100,12 @@ Inheritance diagram for net.sf.jclec.realarray.rec.AbstractFuzzyConnectives:</di
  <div class="center">
   <img src="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_abstract_fuzzy_connectives.png" usemap="#net.sf.jclec.realarray.rec.AbstractFuzzyConnectives_map" alt=""/>
   <map id="net.sf.jclec.realarray.rec.AbstractFuzzyConnectives_map" name="net.sf.jclec.realarray.rec.AbstractFuzzyConnectives_map">
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="319,112,628,136"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_i_fuzzy_connectives.html" alt="net.sf.jclec.realarray.rec.IFuzzyConnectives" shape="rect" coords="638,112,947,136"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_configure.html" alt="net.sf.jclec.IConfigure" shape="rect" coords="638,56,947,80"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="638,0,947,24"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_algebraic_connectives.html" alt="net.sf.jclec.realarray.rec.AlgebraicConnectives" shape="rect" coords="0,224,309,248"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_einstein_connectives.html" alt="net.sf.jclec.realarray.rec.EinsteinConnectives" shape="rect" coords="319,224,628,248"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_hamacher_connectives.html" alt="net.sf.jclec.realarray.rec.HamacherConnectives" shape="rect" coords="638,224,947,248"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_logical_connectives.html" alt="net.sf.jclec.realarray.rec.LogicalConnectives" shape="rect" coords="957,224,1266,248"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_i_fuzzy_connectives.html" alt="net.sf.jclec.realarray.rec.IFuzzyConnectives" shape="rect" coords="478,56,787,80"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_configure.html" alt="net.sf.jclec.IConfigure" shape="rect" coords="478,0,787,24"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_algebraic_connectives.html" alt="net.sf.jclec.realarray.rec.AlgebraicConnectives" shape="rect" coords="0,168,309,192"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_einstein_connectives.html" alt="net.sf.jclec.realarray.rec.EinsteinConnectives" shape="rect" coords="319,168,628,192"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_hamacher_connectives.html" alt="net.sf.jclec.realarray.rec.HamacherConnectives" shape="rect" coords="638,168,947,192"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_logical_connectives.html" alt="net.sf.jclec.realarray.rec.LogicalConnectives" shape="rect" coords="957,168,1266,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -227,7 +226,7 @@ Sebastian Ventura </dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 22 2013 14:37:40 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 24 2013 01:01:45 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

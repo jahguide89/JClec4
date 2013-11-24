@@ -40,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,14 +102,12 @@ Inheritance diagram for net.sf.jclec.algorithm.multiobjective.NSGA2:</div>
  <div class="center">
   <img src="classnet_1_1sf_1_1jclec_1_1algorithm_1_1multiobjective_1_1_n_s_g_a2.png" usemap="#net.sf.jclec.algorithm.multiobjective.NSGA2_map" alt=""/>
   <map id="net.sf.jclec.algorithm.multiobjective.NSGA2_map" name="net.sf.jclec.algorithm.multiobjective.NSGA2_map">
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_population_algorithm.html" alt="net.sf.jclec.algorithm.PopulationAlgorithm" shape="rect" coords="132,224,387,248"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_abstract_algorithm.html" alt="net.sf.jclec.algorithm.AbstractAlgorithm" shape="rect" coords="0,168,255,192"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_population.html" alt="net.sf.jclec.IPopulation" shape="rect" coords="265,168,520,192"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_configure.html" alt="net.sf.jclec.IConfigure" shape="rect" coords="0,112,255,136"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_system.html" alt="net.sf.jclec.ISystem" shape="rect" coords="265,112,520,136"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="0,56,255,80"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen_factory.html" alt="net.sf.jclec.util.random.IRandGenFactory" shape="rect" coords="265,56,520,80"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="265,0,520,24"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_population_algorithm.html" alt="net.sf.jclec.algorithm.PopulationAlgorithm" shape="rect" coords="132,168,387,192"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_abstract_algorithm.html" alt="net.sf.jclec.algorithm.AbstractAlgorithm" shape="rect" coords="0,112,255,136"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_population.html" alt="net.sf.jclec.IPopulation" shape="rect" coords="265,112,520,136"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_configure.html" alt="net.sf.jclec.IConfigure" shape="rect" coords="0,56,255,80"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_system.html" alt="net.sf.jclec.ISystem" shape="rect" coords="265,56,520,80"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen_factory.html" alt="net.sf.jclec.util.random.IRandGenFactory" shape="rect" coords="265,0,520,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -634,7 +633,7 @@ Revised by: Josi?oe Mari?oea Luna-Ariza </dd></dl>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 22 2013 14:37:36 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 24 2013 01:01:41 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

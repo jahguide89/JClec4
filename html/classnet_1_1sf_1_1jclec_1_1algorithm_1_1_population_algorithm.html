@@ -40,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,24 +102,22 @@ Inheritance diagram for net.sf.jclec.algorithm.PopulationAlgorithm:</div>
  <div class="center">
   <img src="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_population_algorithm.png" usemap="#net.sf.jclec.algorithm.PopulationAlgorithm_map" alt=""/>
   <map id="net.sf.jclec.algorithm.PopulationAlgorithm_map" name="net.sf.jclec.algorithm.PopulationAlgorithm_map">
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_abstract_algorithm.html" alt="net.sf.jclec.algorithm.AbstractAlgorithm" shape="rect" coords="672,168,931,192"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_population.html" alt="net.sf.jclec.IPopulation" shape="rect" coords="941,168,1200,192"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_configure.html" alt="net.sf.jclec.IConfigure" shape="rect" coords="672,112,931,136"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_i_system.html" alt="net.sf.jclec.ISystem" shape="rect" coords="941,112,1200,136"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="672,56,931,80"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen_factory.html" alt="net.sf.jclec.util.random.IRandGenFactory" shape="rect" coords="941,56,1200,80"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="941,0,1200,24"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_c_h_c.html" alt="net.sf.jclec.algorithm.classic.CHC" shape="rect" coords="0,280,259,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_s_g.html" alt="net.sf.jclec.algorithm.classic.SG" shape="rect" coords="269,280,528,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_s_s.html" alt="net.sf.jclec.algorithm.classic.SS" shape="rect" coords="538,280,797,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1gengap_1_1_g3.html" alt="net.sf.jclec.algorithm.gengap.G3" shape="rect" coords="807,280,1066,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1gengap_1_1_m_g_g.html" alt="net.sf.jclec.algorithm.gengap.MGG" shape="rect" coords="1076,280,1335,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1multiobjective_1_1_n_s_g_a2.html" alt="net.sf.jclec.algorithm.multiobjective.NSGA2" shape="rect" coords="1345,280,1604,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1multiobjective_1_1_s_p_e_a2.html" alt="net.sf.jclec.algorithm.multiobjective.SPEA2" shape="rect" coords="1614,280,1873,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_s_g_e.html" alt="net.sf.jclec.algorithm.classic.SGE" shape="rect" coords="134,336,393,360"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1niching_1_1_spatial_niching.html" alt="net.sf.jclec.algorithm.niching.SpatialNiching" shape="rect" coords="403,336,662,360"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1niching_1_1_clearing.html" alt="net.sf.jclec.algorithm.niching.Clearing" shape="rect" coords="269,392,528,416"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1niching_1_1_sharing.html" alt="net.sf.jclec.algorithm.niching.Sharing" shape="rect" coords="538,392,797,416"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_abstract_algorithm.html" alt="net.sf.jclec.algorithm.AbstractAlgorithm" shape="rect" coords="672,112,931,136"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_population.html" alt="net.sf.jclec.IPopulation" shape="rect" coords="941,112,1200,136"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_configure.html" alt="net.sf.jclec.IConfigure" shape="rect" coords="672,56,931,80"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1_i_system.html" alt="net.sf.jclec.ISystem" shape="rect" coords="941,56,1200,80"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1util_1_1random_1_1_i_rand_gen_factory.html" alt="net.sf.jclec.util.random.IRandGenFactory" shape="rect" coords="941,0,1200,24"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_c_h_c.html" alt="net.sf.jclec.algorithm.classic.CHC" shape="rect" coords="0,224,259,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_s_g.html" alt="net.sf.jclec.algorithm.classic.SG" shape="rect" coords="269,224,528,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_s_s.html" alt="net.sf.jclec.algorithm.classic.SS" shape="rect" coords="538,224,797,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1gengap_1_1_g3.html" alt="net.sf.jclec.algorithm.gengap.G3" shape="rect" coords="807,224,1066,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1gengap_1_1_m_g_g.html" alt="net.sf.jclec.algorithm.gengap.MGG" shape="rect" coords="1076,224,1335,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1multiobjective_1_1_n_s_g_a2.html" alt="net.sf.jclec.algorithm.multiobjective.NSGA2" shape="rect" coords="1345,224,1604,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1multiobjective_1_1_s_p_e_a2.html" alt="net.sf.jclec.algorithm.multiobjective.SPEA2" shape="rect" coords="1614,224,1873,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1classic_1_1_s_g_e.html" alt="net.sf.jclec.algorithm.classic.SGE" shape="rect" coords="134,280,393,304"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1niching_1_1_spatial_niching.html" alt="net.sf.jclec.algorithm.niching.SpatialNiching" shape="rect" coords="403,280,662,304"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1niching_1_1_clearing.html" alt="net.sf.jclec.algorithm.niching.Clearing" shape="rect" coords="269,336,528,360"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1niching_1_1_sharing.html" alt="net.sf.jclec.algorithm.niching.Sharing" shape="rect" coords="538,336,797,360"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -817,7 +816,7 @@ If one individual has an acceptable fitness, set the finished flag to true. Else
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 22 2013 14:37:36 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 24 2013 01:01:41 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

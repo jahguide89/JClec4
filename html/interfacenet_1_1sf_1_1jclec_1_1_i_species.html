@@ -40,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,21 +97,20 @@ Inheritance diagram for net.sf.jclec.ISpecies:</div>
  <div class="center">
   <img src="interfacenet_1_1sf_1_1jclec_1_1_i_species.png" usemap="#net.sf.jclec.ISpecies_map" alt=""/>
   <map id="net.sf.jclec.ISpecies_map" name="net.sf.jclec.ISpecies_map">
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="1095,0,1450,24"/>
-<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_species.html" alt="net.sf.jclec.binarray.BinArraySpecies" shape="rect" coords="0,112,355,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_species.html" alt="net.sf.jclec.exprtree.ExprTreeSpecies" shape="rect" coords="365,112,720,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_species.html" alt="net.sf.jclec.intarray.IntArraySpecies" shape="rect" coords="730,112,1085,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_species.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeSpecies" shape="rect" coords="1095,112,1450,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_species.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeSpecies" shape="rect" coords="1460,112,1815,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_species.html" alt="net.sf.jclec.realarray.RealArraySpecies" shape="rect" coords="1825,112,2180,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_species.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeSpecies" shape="rect" coords="2190,112,2545,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_species.html" alt="net.sf.jclec.binarray.BinArrayIndividualSpecies" shape="rect" coords="0,168,355,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_individual_species.html" alt="net.sf.jclec.exprtree.ExprTreeIndividualSpecies" shape="rect" coords="365,168,720,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_individual_species.html" alt="net.sf.jclec.intarray.IntArrayIndividualSpecies" shape="rect" coords="730,168,1085,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_individual_species.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeIndividualSpecies" shape="rect" coords="1095,168,1450,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_individual_species.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeIndividualSpecies" shape="rect" coords="1460,168,1815,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_individual_species.html" alt="net.sf.jclec.realarray.RealArrayIndividualSpecies" shape="rect" coords="1825,168,2180,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_individual_species.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeIndividualSpecies" shape="rect" coords="2190,168,2545,192"/>
+<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_species.html" alt="net.sf.jclec.binarray.BinArraySpecies" shape="rect" coords="0,56,355,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_species.html" alt="net.sf.jclec.exprtree.ExprTreeSpecies" shape="rect" coords="365,56,720,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_species.html" alt="net.sf.jclec.intarray.IntArraySpecies" shape="rect" coords="730,56,1085,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_species.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeSpecies" shape="rect" coords="1095,56,1450,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_species.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeSpecies" shape="rect" coords="1460,56,1815,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_species.html" alt="net.sf.jclec.realarray.RealArraySpecies" shape="rect" coords="1825,56,2180,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_species.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeSpecies" shape="rect" coords="2190,56,2545,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_species.html" alt="net.sf.jclec.binarray.BinArrayIndividualSpecies" shape="rect" coords="0,112,355,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_individual_species.html" alt="net.sf.jclec.exprtree.ExprTreeIndividualSpecies" shape="rect" coords="365,112,720,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_individual_species.html" alt="net.sf.jclec.intarray.IntArrayIndividualSpecies" shape="rect" coords="730,112,1085,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_individual_species.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeIndividualSpecies" shape="rect" coords="1095,112,1450,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_individual_species.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeIndividualSpecies" shape="rect" coords="1460,112,1815,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_individual_species.html" alt="net.sf.jclec.realarray.RealArrayIndividualSpecies" shape="rect" coords="1825,112,2180,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_individual_species.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeIndividualSpecies" shape="rect" coords="2190,112,2545,136"/>
 </map>
  </div></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -122,7 +122,7 @@ Inheritance diagram for net.sf.jclec.ISpecies:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 22 2013 14:37:35 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 24 2013 01:01:40 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -40,6 +40,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -99,44 +100,43 @@ Inheritance diagram for net.sf.jclec.IConfigure:</div>
  <div class="center">
   <img src="interfacenet_1_1sf_1_1jclec_1_1_i_configure.png" usemap="#net.sf.jclec.IConfigure_map" alt=""/>
   <map id="net.sf.jclec.IConfigure_map" name="net.sf.jclec.IConfigure_map">
-<area href="interfacenet_1_1sf_1_1jclec_1_1_j_c_l_e_c.html" alt="net.sf.jclec.JCLEC" shape="rect" coords="0,0,355,24"/>
-<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_abstract_algorithm.html" alt="net.sf.jclec.algorithm.AbstractAlgorithm" shape="rect" coords="365,112,720,136"/>
-<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_mutator.html" alt="net.sf.jclec.base.DecoratedMutator" shape="rect" coords="365,168,720,192"/>
-<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_recombinator.html" alt="net.sf.jclec.base.DecoratedRecombinator" shape="rect" coords="365,224,720,248"/>
-<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_multi_mutator.html" alt="net.sf.jclec.base.MultiMutator" shape="rect" coords="365,280,720,304"/>
-<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_multi_recombinator.html" alt="net.sf.jclec.base.MultiRecombinator" shape="rect" coords="365,336,720,360"/>
-<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_species.html" alt="net.sf.jclec.binarray.BinArrayIndividualSpecies" shape="rect" coords="365,392,720,416"/>
-<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_several_loci_mutator.html" alt="net.sf.jclec.binarray.mut.SeveralLociMutator" shape="rect" coords="365,448,720,472"/>
-<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_uniform_mutator.html" alt="net.sf.jclec.binarray.mut.UniformMutator" shape="rect" coords="365,504,720,528"/>
-<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover.html" alt="net.sf.jclec.binarray.rec.UniformCrossover" shape="rect" coords="365,560,720,584"/>
-<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_individual_species.html" alt="net.sf.jclec.exprtree.ExprTreeIndividualSpecies" shape="rect" coords="365,616,720,640"/>
-<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_mutator.html" alt="net.sf.jclec.exprtree.ExprTreeMutator" shape="rect" coords="365,672,720,696"/>
-<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_recombinator.html" alt="net.sf.jclec.exprtree.ExprTreeRecombinator" shape="rect" coords="365,728,720,752"/>
-<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_individual_species.html" alt="net.sf.jclec.intarray.IntArrayIndividualSpecies" shape="rect" coords="365,784,720,808"/>
-<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_several_loci_mutator.html" alt="net.sf.jclec.intarray.mut.SeveralLociMutator" shape="rect" coords="365,840,720,864"/>
-<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_uniform_mutator.html" alt="net.sf.jclec.intarray.mut.UniformMutator" shape="rect" coords="365,896,720,920"/>
-<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1rec_1_1_uniform_crossover.html" alt="net.sf.jclec.intarray.rec.UniformCrossover" shape="rect" coords="365,952,720,976"/>
-<area href="classnet_1_1sf_1_1jclec_1_1listener_1_1_population_reporter.html" alt="net.sf.jclec.listener.PopulationReporter" shape="rect" coords="365,1008,720,1032"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_individual_species.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeIndividualSpecies" shape="rect" coords="365,1064,720,1088"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_mutator.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeMutator" shape="rect" coords="365,1120,720,1144"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_recombinator.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeRecombinator" shape="rect" coords="365,1176,720,1200"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_individual_species.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeIndividualSpecies" shape="rect" coords="365,1232,720,1256"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeMutator" shape="rect" coords="365,1288,720,1312"/>
-<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_recombinator.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeRecombinator" shape="rect" coords="365,1344,720,1368"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_individual_species.html" alt="net.sf.jclec.realarray.RealArrayIndividualSpecies" shape="rect" coords="365,1400,720,1424"/>
-<area href="interfacenet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_i_fuzzy_connectives.html" alt="net.sf.jclec.realarray.rec.IFuzzyConnectives" shape="rect" coords="365,1456,720,1480"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_crossover.html" alt="net.sf.jclec.realarray.UniformCrossover" shape="rect" coords="365,1512,720,1536"/>
-<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator.html" alt="net.sf.jclec.realarray.UniformMutator" shape="rect" coords="365,1568,720,1592"/>
-<area href="classnet_1_1sf_1_1jclec_1_1selector_1_1_boltzmann_selector.html" alt="net.sf.jclec.selector.BoltzmannSelector" shape="rect" coords="365,1624,720,1648"/>
-<area href="classnet_1_1sf_1_1jclec_1_1selector_1_1_tournament_selector.html" alt="net.sf.jclec.selector.TournamentSelector" shape="rect" coords="365,1680,720,1704"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator.html" alt="net.sf.jclec.syntaxtree.mut.SelectiveMutator" shape="rect" coords="365,1736,720,1760"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1rec_1_1_selective_crossover.html" alt="net.sf.jclec.syntaxtree.rec.SelectiveCrossover" shape="rect" coords="365,1792,720,1816"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_individual_species.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeIndividualSpecies" shape="rect" coords="365,1848,720,1872"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_mutator.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeMutator" shape="rect" coords="365,1904,720,1928"/>
-<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_recombinator.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeRecombinator" shape="rect" coords="365,1960,720,1984"/>
-<area href="classnet_1_1sf_1_1jclec_1_1util_1_1intset_1_1_interval.html" alt="net.sf.jclec.util.intset.Interval" shape="rect" coords="365,2016,720,2040"/>
-<area href="classnet_1_1sf_1_1jclec_1_1util_1_1random_1_1_abstract_rand_gen_factory.html" alt="net.sf.jclec.util.random.AbstractRandGenFactory" shape="rect" coords="365,2072,720,2096"/>
-<area href="classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval.html" alt="net.sf.jclec.util.range.Interval" shape="rect" coords="365,2128,720,2152"/>
+<area href="classnet_1_1sf_1_1jclec_1_1algorithm_1_1_abstract_algorithm.html" alt="net.sf.jclec.algorithm.AbstractAlgorithm" shape="rect" coords="365,56,720,80"/>
+<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_mutator.html" alt="net.sf.jclec.base.DecoratedMutator" shape="rect" coords="365,112,720,136"/>
+<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_decorated_recombinator.html" alt="net.sf.jclec.base.DecoratedRecombinator" shape="rect" coords="365,168,720,192"/>
+<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_multi_mutator.html" alt="net.sf.jclec.base.MultiMutator" shape="rect" coords="365,224,720,248"/>
+<area href="classnet_1_1sf_1_1jclec_1_1base_1_1_multi_recombinator.html" alt="net.sf.jclec.base.MultiRecombinator" shape="rect" coords="365,280,720,304"/>
+<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1_bin_array_individual_species.html" alt="net.sf.jclec.binarray.BinArrayIndividualSpecies" shape="rect" coords="365,336,720,360"/>
+<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_several_loci_mutator.html" alt="net.sf.jclec.binarray.mut.SeveralLociMutator" shape="rect" coords="365,392,720,416"/>
+<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1mut_1_1_uniform_mutator.html" alt="net.sf.jclec.binarray.mut.UniformMutator" shape="rect" coords="365,448,720,472"/>
+<area href="classnet_1_1sf_1_1jclec_1_1binarray_1_1rec_1_1_uniform_crossover.html" alt="net.sf.jclec.binarray.rec.UniformCrossover" shape="rect" coords="365,504,720,528"/>
+<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_individual_species.html" alt="net.sf.jclec.exprtree.ExprTreeIndividualSpecies" shape="rect" coords="365,560,720,584"/>
+<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_mutator.html" alt="net.sf.jclec.exprtree.ExprTreeMutator" shape="rect" coords="365,616,720,640"/>
+<area href="classnet_1_1sf_1_1jclec_1_1exprtree_1_1_expr_tree_recombinator.html" alt="net.sf.jclec.exprtree.ExprTreeRecombinator" shape="rect" coords="365,672,720,696"/>
+<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1_int_array_individual_species.html" alt="net.sf.jclec.intarray.IntArrayIndividualSpecies" shape="rect" coords="365,728,720,752"/>
+<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_several_loci_mutator.html" alt="net.sf.jclec.intarray.mut.SeveralLociMutator" shape="rect" coords="365,784,720,808"/>
+<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1mut_1_1_uniform_mutator.html" alt="net.sf.jclec.intarray.mut.UniformMutator" shape="rect" coords="365,840,720,864"/>
+<area href="classnet_1_1sf_1_1jclec_1_1intarray_1_1rec_1_1_uniform_crossover.html" alt="net.sf.jclec.intarray.rec.UniformCrossover" shape="rect" coords="365,896,720,920"/>
+<area href="classnet_1_1sf_1_1jclec_1_1listener_1_1_population_reporter.html" alt="net.sf.jclec.listener.PopulationReporter" shape="rect" coords="365,952,720,976"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_individual_species.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeIndividualSpecies" shape="rect" coords="365,1008,720,1032"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_mutator.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeMutator" shape="rect" coords="365,1064,720,1088"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multiexprtree_1_1_multi_expr_tree_recombinator.html" alt="net.sf.jclec.multiexprtree.MultiExprTreeRecombinator" shape="rect" coords="365,1120,720,1144"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_individual_species.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeIndividualSpecies" shape="rect" coords="365,1176,720,1200"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_mutator.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeMutator" shape="rect" coords="365,1232,720,1256"/>
+<area href="classnet_1_1sf_1_1jclec_1_1multisyntaxtree_1_1_multi_syntax_tree_recombinator.html" alt="net.sf.jclec.multisyntaxtree.MultiSyntaxTreeRecombinator" shape="rect" coords="365,1288,720,1312"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_real_array_individual_species.html" alt="net.sf.jclec.realarray.RealArrayIndividualSpecies" shape="rect" coords="365,1344,720,1368"/>
+<area href="interfacenet_1_1sf_1_1jclec_1_1realarray_1_1rec_1_1_i_fuzzy_connectives.html" alt="net.sf.jclec.realarray.rec.IFuzzyConnectives" shape="rect" coords="365,1400,720,1424"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_crossover.html" alt="net.sf.jclec.realarray.UniformCrossover" shape="rect" coords="365,1456,720,1480"/>
+<area href="classnet_1_1sf_1_1jclec_1_1realarray_1_1_uniform_mutator.html" alt="net.sf.jclec.realarray.UniformMutator" shape="rect" coords="365,1512,720,1536"/>
+<area href="classnet_1_1sf_1_1jclec_1_1selector_1_1_boltzmann_selector.html" alt="net.sf.jclec.selector.BoltzmannSelector" shape="rect" coords="365,1568,720,1592"/>
+<area href="classnet_1_1sf_1_1jclec_1_1selector_1_1_tournament_selector.html" alt="net.sf.jclec.selector.TournamentSelector" shape="rect" coords="365,1624,720,1648"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1mut_1_1_selective_mutator.html" alt="net.sf.jclec.syntaxtree.mut.SelectiveMutator" shape="rect" coords="365,1680,720,1704"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1rec_1_1_selective_crossover.html" alt="net.sf.jclec.syntaxtree.rec.SelectiveCrossover" shape="rect" coords="365,1736,720,1760"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_individual_species.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeIndividualSpecies" shape="rect" coords="365,1792,720,1816"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_mutator.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeMutator" shape="rect" coords="365,1848,720,1872"/>
+<area href="classnet_1_1sf_1_1jclec_1_1syntaxtree_1_1_syntax_tree_recombinator.html" alt="net.sf.jclec.syntaxtree.SyntaxTreeRecombinator" shape="rect" coords="365,1904,720,1928"/>
+<area href="classnet_1_1sf_1_1jclec_1_1util_1_1intset_1_1_interval.html" alt="net.sf.jclec.util.intset.Interval" shape="rect" coords="365,1960,720,1984"/>
+<area href="classnet_1_1sf_1_1jclec_1_1util_1_1random_1_1_abstract_rand_gen_factory.html" alt="net.sf.jclec.util.random.AbstractRandGenFactory" shape="rect" coords="365,2016,720,2040"/>
+<area href="classnet_1_1sf_1_1jclec_1_1util_1_1range_1_1_interval.html" alt="net.sf.jclec.util.range.Interval" shape="rect" coords="365,2072,720,2096"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -180,7 +180,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 22 2013 14:37:35 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 24 2013 01:01:40 for Jclec4 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>
